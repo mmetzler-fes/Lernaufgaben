@@ -1,0 +1,89 @@
+{
+  "quizname": "Netzwerk Grundlagen IT",
+  "items": [
+    {
+      "query": "Client-Server Architektur",
+      "answer": "Server bieten Dienste an, welche von Clients angefragt werden können. z.B. Webserver, Email-Server, DHCP-Server, FTP-Server, ..."
+    },
+    {
+      "query": "IP-Adresse",
+      "answer": "Eine eindeutige Adresse zur Identifikation eines Geräts in einem Netzwerk."
+    },
+    {
+      "query": "IPv4",
+      "answer": "Internetprotokoll Version 4. Eine IP-Adresse besteht aus 32 Bit und wird meist als vier Zahlen zwischen 0 und 255 dargestellt."
+    },
+    {
+      "query": "IPv6",
+      "answer": "Nachfolger von IPv4. Verwendet 128 Bit lange Adressen und ermöglicht eine sehr große Anzahl an möglichen IP-Adressen."
+    },
+    {
+      "query": "MAC-Adresse",
+      "answer": "Eine weltweit eindeutige Hardwareadresse einer Netzwerkkarte, die auf der Sicherungsschicht verwendet wird."
+    },
+    {
+      "query": "Subnetzmaske",
+      "answer": "Bestimmt, welcher Teil einer IP-Adresse das Netzwerk und welcher Teil den Host beschreibt."
+    },
+    {
+      "query": "Gateway",
+      "answer": "Netzwerkgerät, das Datenpakete aus einem lokalen Netzwerk in andere Netzwerke weiterleitet. (OSI-Layer 4)"
+    },
+    {
+      "query": "DNS",
+      "answer": "Domain Name System. Übersetzt Domainnamen wie www.example.com in IP-Adressen."
+    },
+    {
+      "query": "DHCP",
+      "answer": "Dynamic Host Configuration Protocol. Weist Geräten automatisch IP-Adressen und Netzwerkeinstellungen zu."
+    },
+    {
+      "query": "Router",
+      "answer": "Netzwerkgerät, das Datenpakete zwischen verschiedenen Netzwerken weiterleitet. (OSI-Layer 3)"
+    },
+    {
+      "query": "Switch",
+      "answer": "Netzwerkgerät, das Geräte innerhalb eines lokalen Netzwerks verbindet und Daten gezielt anhand von MAC-Adressen weiterleitet."
+    },
+    {
+      "query": "Hub",
+      "answer": "Ein einfaches Netzwerkgerät, das eingehende Daten an alle angeschlossenen Geräte gleichzeitig weiterleitet."
+    },
+    {
+      "query": "LAN",
+      "answer": "Local Area Network. Ein lokales Netzwerk in einem begrenzten Bereich, z.B. in einem Gebäude oder einer Schule."
+    },
+    {
+      "query": "WAN",
+      "answer": "Wide Area Network. Ein Netzwerk über große geografische Entfernungen, z.B. das Internet."
+    },
+    {
+      "query": "OSI-Modell",
+      "answer": "Ein Referenzmodell mit sieben Schichten zur Beschreibung der Kommunikation in Netzwerken."
+    },
+    {
+      "query": "TCP",
+      "answer": "Transmission Control Protocol. Ein verbindungsorientiertes Protokoll, das eine zuverlässige Datenübertragung garantiert."
+    },
+    {
+      "query": "UDP",
+      "answer": "User Datagram Protocol. Ein verbindungsloses Protokoll mit schneller, aber nicht garantierter Datenübertragung."
+    },
+    {
+      "query": "Port",
+      "answer": "Eine logische Nummer, die bestimmt, welcher Dienst auf einem Gerät Netzwerkdaten empfängt."
+    },
+    {
+      "query": "HTTP",
+      "answer": "Hypertext Transfer Protocol. Protokoll zur Übertragung von Webseiten im Internet."
+    },
+    {
+      "query": "HTTPS",
+      "answer": "Sichere Variante von HTTP, bei der die Datenübertragung mit TLS/SSL verschlüsselt wird."
+    },
+    {
+      "query": "Paket",
+      "answer": "Eine Einheit von Daten, die in Netzwerken übertragen wird und neben Nutzdaten auch Steuerinformationen enthält."
+    }
+  ]
+}

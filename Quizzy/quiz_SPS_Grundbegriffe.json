@@ -1,0 +1,81 @@
+{
+  "quizname": "SPS Grundbegriffe",
+  "items": [
+    {
+      "query": "SPS (Speicherprogrammierbare Steuerung)",
+      "answer": "ist ein industrieller Computer, der zur Steuerung und Automatisierung von Maschinen und Anlagen eingesetzt wird."
+    },
+    {
+      "query": "Eingang (Input)",
+      "answer": "ist ein Signal, das von Sensoren oder Tastern an die SPS übergeben wird und den aktuellen Zustand der Anlage widerspiegelt."
+    },
+    {
+      "query": "Ausgang (Output)",
+      "answer": "ist ein Signal, das von der SPS an Aktoren wie Motoren, Ventile oder Lampen ausgegeben wird."
+    },
+    {
+      "query": "Programmzyklus",
+      "answer": "ist der wiederkehrende Ablauf in der SPS, bei dem Eingänge eingelesen, das Programm verarbeitet und Ausgänge gesetzt werden."
+    },
+    {
+      "query": "Kontaktplan (KOP)",
+      "answer": "ist eine grafische Programmiersprache, die elektrische Schaltpläne nachbildet und häufig in der SPS-Programmierung verwendet wird."
+    },
+    {
+      "query": "Funktionsplan (FUP)",
+      "answer": "ist eine grafische Programmiersprache, bei der logische Funktionen als Blöcke dargestellt und miteinander verbunden werden."
+    },
+    {
+      "query": "SCL (Structured Control Language)",
+      "answer": "ist eine textbasierte Programmiersprache für SPS, die an Hochsprachen wie Pascal angelehnt ist."
+    },
+    {
+      "query": "Merker",
+      "answer": "ist ein interner Speicherbereich in der SPS, der zum Zwischenspeichern von Zuständen und Signalen verwendet wird."
+    },
+    {
+      "query": "Timer",
+      "answer": "ist eine Funktion in der SPS, mit der zeitabhängige Abläufe wie Verzögerungen oder Impulse realisiert werden können."
+    },
+    {
+      "query": "Zähler",
+      "answer": "ist eine Funktion, mit der Ereignisse gezählt werden, beispielsweise wie oft ein Sensor ausgelöst wurde."
+    },
+    {
+      "query": "FC (Function)",
+      "answer": "ist ein Baustein ohne eigenen Speicher. Er verarbeitet Eingaben und liefert ein Ergebnis zurück, speichert jedoch keine Zustände dauerhaft."
+    },
+    {
+      "query": "FB (Funktionsbaustein)",
+      "answer": "ist ein Baustein mit eigenem Speicher. Er kann Zustände über mehrere Programmzyklen hinweg behalten."
+    },
+    {
+      "query": "Unterschied FC und FB",
+      "answer": "Ein FC besitzt keinen eigenen Speicher und liefert nur ein Ergebnis zurück. Ein FB hingegen benötigt einen Instanz-Datenbaustein und kann interne Zustände dauerhaft speichern, z.B. für Schrittketten oder Speicherfunktionen."
+    },
+    {
+      "query": "Instanz-Datenbaustein (Instanz-DB)",
+      "answer": "ist ein Speicherbereich, der einem FB zugeordnet ist und dessen interne Daten und Zustände speichert."
+    },
+    {
+      "query": "OB1 (Main)",
+      "answer": "ist der Hauptorganisationsbaustein der SPS und bildet den zyklischen Startpunkt des Programms. Er wird kontinuierlich von der SPS abgearbeitet."
+    },
+    {
+      "query": "Adressierung",
+      "answer": "beschreibt die eindeutige Zuordnung von Ein- und Ausgängen sowie Speichern zu bestimmten Speicherstellen in der SPS."
+    },
+    {
+      "query": "Zykluszeit",
+      "answer": "ist die Zeit, die die SPS benötigt, um einen vollständigen Programmzyklus einmal auszuführen."
+    },
+    {
+      "query": "Sensor",
+      "answer": "ist ein Gerät, das physikalische Größen erfasst und in elektrische Signale für die SPS umwandelt."
+    },
+    {
+      "query": "Aktor",
+      "answer": "ist ein Bauteil, das elektrische Signale der SPS in physikalische Aktionen umsetzt, z.B. Bewegung oder Schalten."
+    }
+  ]
+}

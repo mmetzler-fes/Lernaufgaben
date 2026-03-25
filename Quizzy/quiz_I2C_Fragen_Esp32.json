@@ -1,0 +1,49 @@
+{
+  "quizname": "I2C Schnittstelle & LM75 Protokoll",
+  "items": [
+    {
+      "query": "SDA (Serial Data)",
+      "answer": "Die bidirektionale Datenleitung im I2C-Bus, über die Datenbits übertragen werden."
+    },
+    {
+      "query": "SCL (Serial Clock)",
+      "answer": "Die Taktleitung, die vom Master ausgegeben wird, um die Datenübertragung zu synchronisieren."
+    },
+    {
+      "query": "Start-Kondition",
+      "answer": "Ein Übergang von HIGH auf LOW auf der SDA-Leitung, während SCL auf HIGH bleibt."
+    },
+    {
+      "query": "Stopp-Kondition",
+      "answer": "Ein Übergang von LOW auf HIGH auf der SDA-Leitung, während SCL auf HIGH bleibt."
+    },
+    {
+      "query": "I2C-Adresse (LM75)",
+      "answer": "Die Kennung des Sensors auf dem Bus (standardmäßig oft 0x48 bis 0x4F, je nach Beschaltung der Pins A0-A2)."
+    },
+    {
+      "query": "ACK / NACK",
+      "answer": "Acknowledge (Bestätigung eines Bytes durch LOW auf SDA) oder Not-Acknowledge (HIGH auf SDA)."
+    },
+    {
+      "query": "Pointer Register (LM75)",
+      "answer": "Ein internes Register im LM75, das festlegt, auf welches Datenregister (Temperatur, Konfiguration, etc.) zugegriffen werden soll."
+    },
+    {
+      "query": "Protokollablauf: Temperatur lesen",
+      "answer": "1. Start 2. Schreib-Adresse (SLA+W) 3. Pointer auf Temp-Register setzen (0x00) 4. Repeated Start 5. Lese-Adresse (SLA+R) 6. Empfang von 2 Bytes (MSB & LSB) 7. Stopp."
+    },
+    {
+      "query": "MSB (Most Significant Byte) beim LM75",
+      "answer": "Das erste empfangene Byte bei der Temperaturabfrage; es enthält den ganzzahligen Teil der Temperatur in Celsius."
+    },
+    {
+      "query": "Pull-Up Widerstände",
+      "answer": "Widerstände, die SDA und SCL auf VCC ziehen, da I2C-Treiber als Open-Drain konzipiert sind."
+    },
+    {
+      "query": "NACK beim Lesen (Master)",
+      "answer": "Der Master sendet nach dem letzten erwarteten Byte ein NACK, um dem Slave zu signalisieren, dass die Übertragung beendet ist, bevor er die Stopp-Kondition erzeugt."
+    } 
+  ]
+}

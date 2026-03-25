@@ -1,0 +1,21 @@
+{
+  "quizname": "Essen - Englisch Vokabeln",
+  "items": [
+    {
+      "query": "Mahlzeit",
+      "answer": "meal"
+    },
+    {
+      "query": "Huhn",
+      "answer": "chicken"
+    },
+    {
+      "query": "Messer",
+      "answer": "knife"
+    },
+    {
+      "query": "Salat",
+      "answer": "salad"
+    }
+  ]
+}

@@ -1,0 +1,1189 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-24T21:06:39.581Z",
+  "topic": {
+    "title": "Python OOP",
+    "description": "Importiert aus H5P (H5P.QuestionSet)",
+    "modules": [
+      {
+        "id": "mod_mn4qmmtp_ra4b",
+        "title": "Python OOP – True/False 8",
+        "type": "trueFalse",
+        "description": "True/False Question",
+        "content": {
+          "imageUrl": "",
+          "questions": [
+            {
+              "question": "Eine Methode mit dem Dekorator @classmethod erhält als ersten Parameter üblicherweise cls.",
+              "correctAnswer": "true",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            }
+          ],
+          "randomOrder": false,
+          "enableRetry": true,
+          "enableSolutionsButton": true
+        },
+        "h5pSource": {
+          "library": "H5P.TrueFalse 1.8",
+          "machineName": "H5P.TrueFalse",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "question": "<p><strong>Aufgabe 10:</strong> Eine Methode mit dem Dekorator <code>@classmethod</code> erhält als ersten Parameter üblicherweise <code>cls</code>.</p>",
+            "correct": true,
+            "l10n": {
+              "trueText": "True",
+              "falseText": "False",
+              "score": "You got @score of @total points",
+              "checkAnswer": "Check",
+              "showSolutionButton": "Show solution",
+              "tryAgain": "Retry",
+              "wrongAnswerMessage": "Leider falsch.",
+              "correctAnswerMessage": "Richtig!"
+            },
+            "behaviour": {
+              "enableRetry": true,
+              "enableSolutionsButton": true
+            },
+            "confirmCheck": {
+              "header": "Finish ?",
+              "body": "Are you sure you wish to finish?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Finish"
+            },
+            "confirmRetry": {
+              "header": "Retry?",
+              "body": "Are you sure you wish to retry?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Confirm"
+            }
+          },
+          "metadata": {
+            "contentType": "True/False Question",
+            "license": "U",
+            "title": "Python OOP – True/False 8",
+            "authors": [],
+            "changes": [],
+            "extraTitle": "Python OOP – True/False 8"
+          },
+          "subContentId": "27be7b3a-1248-4971-9adf-9748ef122847"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z",
+        "updatedAt": "2026-03-24T20:44:32.579Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_72kj",
+        "title": "Python OOP – True/False 9",
+        "type": "trueFalse",
+        "description": "True/False Question",
+        "content": {
+          "imageUrl": "",
+          "questions": [
+            {
+              "question": "Das Überschreiben einer Methode in einer Unterklasse nennt man Vererbung, nicht Polymorphie.",
+              "correctAnswer": "false",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            }
+          ],
+          "randomOrder": false,
+          "enableRetry": true,
+          "enableSolutionsButton": true
+        },
+        "h5pSource": {
+          "library": "H5P.TrueFalse 1.8",
+          "machineName": "H5P.TrueFalse",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "question": "<p><strong>Aufgabe 11:</strong> Das Überschreiben einer Methode in einer Unterklasse nennt man Vererbung, nicht Polymorphie.</p>",
+            "correct": false,
+            "l10n": {
+              "trueText": "True",
+              "falseText": "False",
+              "score": "You got @score of @total points",
+              "checkAnswer": "Check",
+              "showSolutionButton": "Show solution",
+              "tryAgain": "Retry",
+              "wrongAnswerMessage": "Leider falsch.",
+              "correctAnswerMessage": "Richtig!"
+            },
+            "behaviour": {
+              "enableRetry": true,
+              "enableSolutionsButton": true
+            },
+            "confirmCheck": {
+              "header": "Finish ?",
+              "body": "Are you sure you wish to finish?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Finish"
+            },
+            "confirmRetry": {
+              "header": "Retry?",
+              "body": "Are you sure you wish to retry?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Confirm"
+            }
+          },
+          "metadata": {
+            "contentType": "True/False Question",
+            "license": "U",
+            "title": "Python OOP – True/False 9",
+            "authors": [],
+            "changes": [],
+            "extraTitle": "Python OOP – True/False 9"
+          },
+          "subContentId": "13ba965e-abd6-495e-9b5b-8a7a7629ae64"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z",
+        "updatedAt": "2026-03-24T20:44:18.800Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_0fo2",
+        "title": "Python OOP – Konstruktor erkennen",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Aufgabe 14: Welche Aussagen zu __init__ sind korrekt?",
+          "imageUrl": "",
+          "answers": [
+            {
+              "text": "__init__ initialisiert neue Objekte.",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "__init__ muss immer einen Rückgabewert liefern.",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "Innerhalb von __init__ werden häufig Instanzattribute gesetzt.",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "__init__ ist eine statische Methode.",
+              "correct": false,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": false,
+          "randomAnswers": false,
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "question": "<p><strong>Aufgabe 14:</strong> Welche Aussagen zu <code>__init__</code> sind korrekt?</p>",
+            "answers": [
+              {
+                "correct": true,
+                "text": "<div><code>__init__</code> initialisiert neue Objekte.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": false,
+                "text": "<div><code>__init__</code> muss immer einen Rückgabewert liefern.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": true,
+                "text": "<div>Innerhalb von <code>__init__</code> werden häufig Instanzattribute gesetzt.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": false,
+                "text": "<div><code>__init__</code> ist eine statische Methode.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100,
+                "feedback": ""
+              }
+            ],
+            "behaviour": {
+              "enableRetry": true,
+              "enableSolutionsButton": true,
+              "singleAnswer": false,
+              "randomAnswers": false,
+              "passPercentage": 100
+            },
+            "UI": {
+              "checkAnswerButton": "Check",
+              "submitAnswerButton": "Submit",
+              "showSolutionButton": "Show solution",
+              "tryAgainButton": "Retry"
+            },
+            "confirmCheck": {
+              "header": "Finish ?",
+              "body": "Are you sure you wish to finish?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Finish"
+            },
+            "confirmRetry": {
+              "header": "Retry?",
+              "body": "Are you sure you wish to retry?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Confirm"
+            }
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "Python OOP – Konstruktor erkennen",
+            "authors": [],
+            "changes": [],
+            "extraTitle": "Python OOP – Konstruktor erkennen"
+          },
+          "subContentId": "245221b5-05d6-492e-a9e2-3068d6ac865b"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_9iwm",
+        "title": "Python OOP – Vererbung und super()",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Aufgabe 15: Welche Aussagen zu Vererbung und super() sind korrekt?",
+          "imageUrl": "",
+          "answers": [
+            {
+              "text": "Eine Unterklasse kann Methoden der Oberklasse erben.",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "super() kann genutzt werden, um die Implementierung der Oberklasse aufzurufen.",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "Eine Unterklasse darf keine zusätzlichen Attribute besitzen.",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "Method Overriding bedeutet, dass eine geerbte Methode in der Unterklasse neu definiert wird.",
+              "correct": true,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": false,
+          "randomAnswers": false,
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "question": "<p><strong>Aufgabe 15:</strong> Welche Aussagen zu Vererbung und <code>super()</code> sind korrekt?</p>",
+            "answers": [
+              {
+                "correct": true,
+                "text": "<div>Eine Unterklasse kann Methoden der Oberklasse erben.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": true,
+                "text": "<div><code>super()</code> kann genutzt werden, um die Implementierung der Oberklasse aufzurufen.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": false,
+                "text": "<div>Eine Unterklasse darf keine zusätzlichen Attribute besitzen.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": true,
+                "text": "<div>Method Overriding bedeutet, dass eine geerbte Methode in der Unterklasse neu definiert wird.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100,
+                "feedback": ""
+              }
+            ],
+            "behaviour": {
+              "enableRetry": true,
+              "enableSolutionsButton": true,
+              "singleAnswer": false,
+              "randomAnswers": false,
+              "passPercentage": 100
+            },
+            "UI": {
+              "checkAnswerButton": "Check",
+              "submitAnswerButton": "Submit",
+              "showSolutionButton": "Show solution",
+              "tryAgainButton": "Retry"
+            },
+            "confirmCheck": {
+              "header": "Finish ?",
+              "body": "Are you sure you wish to finish?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Finish"
+            },
+            "confirmRetry": {
+              "header": "Retry?",
+              "body": "Are you sure you wish to retry?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Confirm"
+            }
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "Python OOP – Vererbung und super()",
+            "authors": [],
+            "changes": [],
+            "extraTitle": "Python OOP – Vererbung und super()"
+          },
+          "subContentId": "529079dd-f286-4639-97bf-d7b9f40cef9f"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_2tcf",
+        "title": "Python OOP – Klassifizieren",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Aufgabe 16: Welche der folgenden Bezeichner eignen sich in einem OOP-Kontext typischerweise als Klassenname?",
+          "imageUrl": "",
+          "answers": [
+            {
+              "text": "Auto",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "kunde_verarbeiten",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "Bestellung",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "preis_berechnen",
+              "correct": false,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": false,
+          "randomAnswers": false,
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "question": "<p><strong>Aufgabe 16:</strong> Welche der folgenden Bezeichner eignen sich in einem OOP-Kontext typischerweise als <em>Klassenname</em>?</p>",
+            "answers": [
+              {
+                "correct": true,
+                "text": "<div><code>Auto</code></div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": false,
+                "text": "<div><code>kunde_verarbeiten</code></div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": true,
+                "text": "<div><code>Bestellung</code></div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": false,
+                "text": "<div><code>preis_berechnen</code></div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100,
+                "feedback": ""
+              }
+            ],
+            "behaviour": {
+              "enableRetry": true,
+              "enableSolutionsButton": true,
+              "singleAnswer": false,
+              "randomAnswers": false,
+              "passPercentage": 100
+            },
+            "UI": {
+              "checkAnswerButton": "Check",
+              "submitAnswerButton": "Submit",
+              "showSolutionButton": "Show solution",
+              "tryAgainButton": "Retry"
+            },
+            "confirmCheck": {
+              "header": "Finish ?",
+              "body": "Are you sure you wish to finish?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Finish"
+            },
+            "confirmRetry": {
+              "header": "Retry?",
+              "body": "Are you sure you wish to retry?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Confirm"
+            }
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "Python OOP – Klassifizieren",
+            "authors": [],
+            "changes": [],
+            "extraTitle": "Python OOP – Klassifizieren"
+          },
+          "subContentId": "6f4147e5-6b11-4e1f-b258-fb17bc986bb4"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_8vbi",
+        "title": "Python OOP – Kapselung",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Aufgabe 17: Welche Maßnahmen unterstützen Kapselung in Python?",
+          "imageUrl": "",
+          "answers": [
+            {
+              "text": "Attribute nicht direkt, sondern über Methoden oder Properties zugänglich machen.",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "Interne Attribute konsequent mit sprechenden Namen und Konventionen kennzeichnen.",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "Alle Attribute immer global definieren.",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "Geschäftslogik direkt außerhalb der Klasse verteilen.",
+              "correct": false,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": false,
+          "randomAnswers": false,
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "question": "<p><strong>Aufgabe 17:</strong> Welche Maßnahmen unterstützen Kapselung in Python?</p>",
+            "answers": [
+              {
+                "correct": true,
+                "text": "<div>Attribute nicht direkt, sondern über Methoden oder Properties zugänglich machen.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": true,
+                "text": "<div>Interne Attribute konsequent mit sprechenden Namen und Konventionen kennzeichnen.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": false,
+                "text": "<div>Alle Attribute immer global definieren.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              },
+              {
+                "correct": false,
+                "text": "<div>Geschäftslogik direkt außerhalb der Klasse verteilen.</div>",
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                }
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100,
+                "feedback": ""
+              }
+            ],
+            "behaviour": {
+              "enableRetry": true,
+              "enableSolutionsButton": true,
+              "singleAnswer": false,
+              "randomAnswers": false,
+              "passPercentage": 100
+            },
+            "UI": {
+              "checkAnswerButton": "Check",
+              "submitAnswerButton": "Submit",
+              "showSolutionButton": "Show solution",
+              "tryAgainButton": "Retry"
+            },
+            "confirmCheck": {
+              "header": "Finish ?",
+              "body": "Are you sure you wish to finish?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Finish"
+            },
+            "confirmRetry": {
+              "header": "Retry?",
+              "body": "Are you sure you wish to retry?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Confirm"
+            }
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "Python OOP – Kapselung",
+            "authors": [],
+            "changes": [],
+            "extraTitle": "Python OOP – Kapselung"
+          },
+          "subContentId": "0a579539-b6f4-4a74-b712-7c646686a88e"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_52fs",
+        "title": "Python OOP – Lückentext Klasse und Objekt 1",
+        "type": "fillInTheBlanks",
+        "description": "Fill in the Blanks",
+        "content": {
+          "taskDescription": "Aufgabe 19: Ergänzen Sie die fehlenden Fachbegriffe.",
+          "imageUrl": "",
+          "questions": [
+            {
+              "text": "Ein *Objekt* ist eine konkrete Instanz einer *Klasse*."
+            }
+          ],
+          "caseSensitive": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "showSolutionsRequiresInput": false
+        },
+        "h5pSource": {
+          "library": "H5P.Blanks 1.14",
+          "machineName": "H5P.Blanks",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "text": "<p><strong>Aufgabe 19:</strong> Ergänzen Sie die fehlenden Fachbegriffe.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "showSolutions": "Lösung anzeigen",
+            "tryAgain": "Erneut versuchen",
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "notFilledOut": "Bitte alle Lücken ausfüllen.",
+            "answerIsCorrect": "„:ans“ ist richtig",
+            "answerIsWrong": "„:ans“ ist falsch",
+            "answeredCorrectly": "Richtig beantwortet",
+            "answeredIncorrectly": "Falsch beantwortet",
+            "solutionLabel": "Richtige Lösung:",
+            "inputLabel": "Lücke @num von @total",
+            "inputHasTipLabel": "Tipp verfügbar",
+            "tipLabel": "Tipp",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "autoCheck": false,
+              "caseSensitive": false,
+              "showSolutionsRequiresInput": false,
+              "separateLines": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "acceptSpellingErrors": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "a11yCheckingModeHeader": "Prüfmodus",
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "questions": [
+              "<p>Ein *Objekt* ist eine konkrete Instanz einer *Klasse*.</p>"
+            ]
+          },
+          "metadata": {
+            "contentType": "Fill in the Blanks",
+            "license": "U",
+            "title": "Python OOP – Lückentext Klasse und Objekt 1"
+          },
+          "subContentId": "7fff9178-ddca-4cbd-bc41-18d4c90e4b44"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_47uj",
+        "title": "Python OOP – Lückentext Konstruktor 2",
+        "type": "fillInTheBlanks",
+        "description": "Fill in the Blanks",
+        "content": {
+          "taskDescription": "Aufgabe 20: Ergänzen Sie den Python-Code.",
+          "imageUrl": "",
+          "questions": [
+            {
+              "text": "class Konto:  def *__init__*(self, inhaber):    self.*inhaber* = inhaber"
+            }
+          ],
+          "caseSensitive": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "showSolutionsRequiresInput": false
+        },
+        "h5pSource": {
+          "library": "H5P.Blanks 1.14",
+          "machineName": "H5P.Blanks",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "text": "<p><strong>Aufgabe 20:</strong> Ergänzen Sie den Python-Code.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "showSolutions": "Lösung anzeigen",
+            "tryAgain": "Erneut versuchen",
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "notFilledOut": "Bitte alle Lücken ausfüllen.",
+            "answerIsCorrect": "„:ans“ ist richtig",
+            "answerIsWrong": "„:ans“ ist falsch",
+            "answeredCorrectly": "Richtig beantwortet",
+            "answeredIncorrectly": "Falsch beantwortet",
+            "solutionLabel": "Richtige Lösung:",
+            "inputLabel": "Lücke @num von @total",
+            "inputHasTipLabel": "Tipp verfügbar",
+            "tipLabel": "Tipp",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "autoCheck": false,
+              "caseSensitive": false,
+              "showSolutionsRequiresInput": false,
+              "separateLines": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "acceptSpellingErrors": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "a11yCheckingModeHeader": "Prüfmodus",
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "questions": [
+              "<p><code>class Konto:<br>&nbsp;&nbsp;def *__init__*(self, inhaber):<br>&nbsp;&nbsp;&nbsp;&nbsp;self.*inhaber* = inhaber</code></p>"
+            ]
+          },
+          "metadata": {
+            "contentType": "Fill in the Blanks",
+            "license": "U",
+            "title": "Python OOP – Lückentext Konstruktor 2"
+          },
+          "subContentId": "b10550aa-60a5-4ab8-9dda-7c6ef2baa37d"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_ag9m",
+        "title": "Python OOP – Lückentext Polymorphie 5",
+        "type": "fillInTheBlanks",
+        "description": "Fill in the Blanks",
+        "content": {
+          "taskDescription": "Aufgabe 23: Ergänzen Sie den Satz.",
+          "imageUrl": "",
+          "questions": [
+            {
+              "text": "Bei *Polymorphie* können unterschiedliche Objekte auf denselben Methodenaufruf unterschiedlich reagieren."
+            }
+          ],
+          "caseSensitive": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "showSolutionsRequiresInput": false
+        },
+        "h5pSource": {
+          "library": "H5P.Blanks 1.14",
+          "machineName": "H5P.Blanks",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "text": "<p><strong>Aufgabe 23:</strong> Ergänzen Sie den Satz.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "showSolutions": "Lösung anzeigen",
+            "tryAgain": "Erneut versuchen",
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "notFilledOut": "Bitte alle Lücken ausfüllen.",
+            "answerIsCorrect": "„:ans“ ist richtig",
+            "answerIsWrong": "„:ans“ ist falsch",
+            "answeredCorrectly": "Richtig beantwortet",
+            "answeredIncorrectly": "Falsch beantwortet",
+            "solutionLabel": "Richtige Lösung:",
+            "inputLabel": "Lücke @num von @total",
+            "inputHasTipLabel": "Tipp verfügbar",
+            "tipLabel": "Tipp",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "autoCheck": false,
+              "caseSensitive": false,
+              "showSolutionsRequiresInput": false,
+              "separateLines": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "acceptSpellingErrors": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "a11yCheckingModeHeader": "Prüfmodus",
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "questions": [
+              "<p>Bei *Polymorphie* können unterschiedliche Objekte auf denselben Methodenaufruf unterschiedlich reagieren.</p>"
+            ]
+          },
+          "metadata": {
+            "contentType": "Fill in the Blanks",
+            "license": "U",
+            "title": "Python OOP – Lückentext Polymorphie 5"
+          },
+          "subContentId": "70f8d126-cd8e-4562-9ae8-e1bad4ce3655"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_3yje",
+        "title": "Python OOP – Reihenfolge Objekterzeugung",
+        "type": "dragTheWords",
+        "description": "Drag the Words",
+        "content": {
+          "taskDescription": "Aufgabe 24: Ziehen Sie die Bestandteile in die richtige Reihenfolge, um ein Objekt zu erzeugen.",
+          "imageUrl": "",
+          "textField": "Eine typische Objekterzeugung lautet: *auto* = *Auto*(\"VW\", 120)",
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "instantFeedback": false
+        },
+        "h5pSource": {
+          "library": "H5P.DragText 1.10",
+          "machineName": "H5P.DragText",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "taskDescription": "<p><strong>Aufgabe 24:</strong> Ziehen Sie die Bestandteile in die richtige Reihenfolge, um ein Objekt zu erzeugen.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "tryAgain": "Erneut versuchen",
+            "showSolution": "Lösung anzeigen",
+            "dropZoneIndex": "Ablagezone @index.",
+            "empty": "Ablagezone @index ist leer.",
+            "contains": "Ablagezone @index enthält Element @draggable.",
+            "ariaDraggableIndex": "@index von @count Elementen.",
+            "tipLabel": "Tipp anzeigen",
+            "correctText": "Richtig!",
+            "incorrectText": "Falsch!",
+            "resetDropTitle": "Zurücksetzen",
+            "resetDropDescription": "Möchten Sie diese Ablagezone wirklich leeren?",
+            "grabbed": "Element aufgenommen.",
+            "cancelledDragging": "Ziehen abgebrochen.",
+            "correctAnswer": "Richtige Antwort:",
+            "feedbackHeader": "Feedback",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "instantFeedback": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "textField": "Eine typische Objekterzeugung lautet: <code>*auto* = *Auto*(\"VW\", 120)</code>",
+            "distractors": "*print*  *class*  *return*"
+          },
+          "metadata": {
+            "contentType": "Drag the Words",
+            "license": "U",
+            "title": "Python OOP – Reihenfolge Objekterzeugung"
+          },
+          "subContentId": "c06d49c5-456b-4bf7-b96a-29a2f6f4e8f2"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z",
+        "updatedAt": "2026-03-24T20:54:06.793Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_f6nm",
+        "title": "Python OOP – Vererbungs-Syntax",
+        "type": "dragTheWords",
+        "description": "Drag the Words",
+        "content": {
+          "taskDescription": "Aufgabe 25: Ergänzen Sie die fehlenden Bestandteile der Vererbungssyntax.",
+          "imageUrl": "",
+          "textField": "Die Klassendefinition lautet: class *Elektroauto*(*Auto*):",
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "instantFeedback": false
+        },
+        "h5pSource": {
+          "library": "H5P.DragText 1.10",
+          "machineName": "H5P.DragText",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "taskDescription": "<p><strong>Aufgabe 25:</strong> Ergänzen Sie die fehlenden Bestandteile der Vererbungssyntax.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "tryAgain": "Erneut versuchen",
+            "showSolution": "Lösung anzeigen",
+            "dropZoneIndex": "Ablagezone @index.",
+            "empty": "Ablagezone @index ist leer.",
+            "contains": "Ablagezone @index enthält Element @draggable.",
+            "ariaDraggableIndex": "@index von @count Elementen.",
+            "tipLabel": "Tipp anzeigen",
+            "correctText": "Richtig!",
+            "incorrectText": "Falsch!",
+            "resetDropTitle": "Zurücksetzen",
+            "resetDropDescription": "Möchten Sie diese Ablagezone wirklich leeren?",
+            "grabbed": "Element aufgenommen.",
+            "cancelledDragging": "Ziehen abgebrochen.",
+            "correctAnswer": "Richtige Antwort:",
+            "feedbackHeader": "Feedback",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "instantFeedback": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "textField": "Die Klassendefinition lautet: <code>class *Elektroauto*(*Auto*):</code>",
+            "distractors": "*for*  *while*  *__name__*"
+          },
+          "metadata": {
+            "contentType": "Drag the Words",
+            "license": "U",
+            "title": "Python OOP – Vererbungs-Syntax"
+          },
+          "subContentId": "a143ce9e-2a61-4914-a4f1-44f69a44c1b7"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z",
+        "updatedAt": "2026-03-24T20:55:03.538Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_1ijm",
+        "title": "Python OOP – Methodengerüst",
+        "type": "dragTheWords",
+        "description": "Drag the Words",
+        "content": {
+          "taskDescription": "Ziehen Sie die passenden Wörter an die richtige Stelle.",
+          "imageUrl": "",
+          "textField": "<code>class Lampe:\n    def *einschalten*(self):\n        *return* \"Lampe an\"",
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "instantFeedback": false
+        },
+        "h5pSource": {
+          "library": "H5P.DragText 1.10",
+          "machineName": "H5P.DragText",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "taskDescription": "<p><strong>Aufgabe 26:</strong> Ziehen Sie die passenden Wörter an die richtige Stelle.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "tryAgain": "Erneut versuchen",
+            "showSolution": "Lösung anzeigen",
+            "dropZoneIndex": "Ablagezone @index.",
+            "empty": "Ablagezone @index ist leer.",
+            "contains": "Ablagezone @index enthält Element @draggable.",
+            "ariaDraggableIndex": "@index von @count Elementen.",
+            "tipLabel": "Tipp anzeigen",
+            "correctText": "Richtig!",
+            "incorrectText": "Falsch!",
+            "resetDropTitle": "Zurücksetzen",
+            "resetDropDescription": "Möchten Sie diese Ablagezone wirklich leeren?",
+            "grabbed": "Element aufgenommen.",
+            "cancelledDragging": "Ziehen abgebrochen.",
+            "correctAnswer": "Richtige Antwort:",
+            "feedbackHeader": "Feedback",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "instantFeedback": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "textField": "<code>class Lampe:<br>&nbsp;&nbsp;def *einschalten*(self):<br>&nbsp;&nbsp;&nbsp;&nbsp;*return* \"Lampe an\"</code>",
+            "distractors": "*break*  *continue*  *import*"
+          },
+          "metadata": {
+            "contentType": "Drag the Words",
+            "license": "U",
+            "title": "Python OOP – Methodengerüst"
+          },
+          "subContentId": "8ce7c7f7-56af-49ff-9fd9-4797c69667c7"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z",
+        "updatedAt": "2026-03-24T21:01:24.632Z"
+      },
+      {
+        "id": "mod_mn4qmmtp_7tpo",
+        "title": "Python OOP – OOP-Begriffe markieren 1",
+        "type": "markTheWords",
+        "description": "Mark the Words",
+        "content": {
+          "taskDescription": "Markieren Sie alle Begriffe, die typische OOP-Konzepte bezeichnen.",
+          "imageUrl": "",
+          "textField": "*Klasse*\nSchleife\n*Vererbung*\nOperator\n*Polymorphie*\nKonstante\n*Kapselung*",
+          "enableRetry": false,
+          "enableSolutionsButton": false
+        },
+        "h5pSource": {
+          "library": "H5P.MarkTheWords 1.11",
+          "machineName": "H5P.MarkTheWords",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "checkAnswerButton": "Prüfen",
+            "submitAnswerButton": "Absenden",
+            "tryAgainButton": "Erneut versuchen",
+            "showSolutionButton": "Lösung anzeigen",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "showScorePoints": true
+            },
+            "correctAnswer": "Richtig!",
+            "incorrectAnswer": "Falsch!",
+            "missedAnswer": "Nicht markiert!",
+            "displaySolutionDescription": "Die Aufgabe wurde mit der Lösung aktualisiert.",
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yFullTextLabel": "Volltext",
+            "a11yClickableTextLabel": "Klickbarer Volltext",
+            "a11ySolutionModeHeader": "Lösungsmodus",
+            "a11yCheckingHeader": "Prüfmodus",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "taskDescription": "<p><strong>Aufgabe 27:</strong> Markieren Sie alle Begriffe, die typische OOP-Konzepte bezeichnen.</p>",
+            "textField": "<p>*Klasse*</p><p>Schleife</p><p>*Vererbung*</p><p>Operator</p><p>*Polymorphie*</p><p>Konstante</p><p>*Kapselung*</p>"
+          },
+          "metadata": {
+            "contentType": "Mark the Words",
+            "license": "U",
+            "title": "Python OOP – OOP-Begriffe markieren 1"
+          },
+          "subContentId": "49a32f14-4a9f-41db-a25b-4fe303b14536"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z",
+        "updatedAt": "2026-03-24T21:03:27.056Z"
+      }
+    ]
+  }
+}

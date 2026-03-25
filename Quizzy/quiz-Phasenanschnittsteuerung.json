@@ -1,0 +1,41 @@
+{
+  "quizname": "Grundlagen der Leistungselektronik: Dimmverfahren",
+  "items": [
+    {
+      "query": "Phasenanschnittsteuerung",
+      "answer": "Ein Verfahren zur Leistungssteuerung von Wechselstromverbrauchern. Der Stromfluss wird nach dem Nulldurchgang der Spannung zeitverzögert eingeschaltet und erst beim nächsten Nulldurchgang wieder gelöscht. Häufig verwendet für induktive Lasten (z.B. Motoren, konventionelle Trafos)."
+    },
+    {
+      "query": "Phasenabschnittsteuerung",
+      "answer": "Ein Dimmverfahren, bei dem der Stromfluss direkt im Nulldurchgang beginnt und vor dem nächsten Nulldurchgang aktiv abgeschaltet wird. Dies verhindert hohe Einschaltstromspitzen und ist ideal für kapazitive Lasten wie elektronische Transformatoren oder viele LED-Leuchtmittel."
+    },
+    {
+      "query": "Nulldurchgang",
+      "answer": "Der Zeitpunkt, an dem die Sinuskurve der Wechselspannung den Wert Null Volt erreicht. Er dient als Referenzpunkt für die zeitliche Steuerung der Schaltvorgänge."
+    },
+    {
+      "query": "Triac",
+      "answer": "Ein Halbleiterbauelement, das häufig in der Phasenanschnittsteuerung eingesetzt wird, da es nach dem Zünden den Stromfluss bis zum nächsten Nulldurchgang aufrechterhält."
+    },
+    {
+      "query": "Ohm'sche Last",
+      "answer": "Verbraucher wie klassische Glühlampen oder Heizwiderstände, die mit beiden Steuerungsarten (Anschnitt und Abschnitt) problemlos betrieben werden können."
+    },
+    {
+      "query": "Induktive Last",
+      "answer": "Verbraucher mit Spulen (z.B. Transformatoren, Motoren). Hier eilt der Strom der Spannung nach. Beim Ausschalten können hohe Induktionsspannungen entstehen, weshalb meist die Phasenanschnittsteuerung genutzt wird."
+    },
+    {
+      "query": "Kapazitive Last",
+      "answer": "Verbraucher mit Kondensatoren (z.B. Schaltnetzteile, elektronische Trafos). Hier eilt der Strom der Spannung voraus. Um hohe Einschaltstromspitzen zu vermeiden, wird hier die Phasenabschnittsteuerung eingesetzt."
+    },
+    {
+      "query": "Zündwinkel (Alpha)",
+      "answer": "Der Winkel (gemessen in Grad von 0 bis 180), an dem der Halbleiter nach dem Nulldurchgang leitend geschaltet wird. Er bestimmt, wie groß der Anteil der Sinushalbwelle ist, der zum Verbraucher gelangt."
+    },
+    {
+      "query": "Phasenwinkel",
+      "answer": "Beschreibt die zeitliche Verschiebung zwischen dem Verlauf von Spannung und Stromstärke bei nicht-ohmschen Lasten."
+    }
+  ]
+}

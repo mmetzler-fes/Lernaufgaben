@@ -1,0 +1,85 @@
+{
+  "quizname": "Objektorientierte Programmierung Grundlagen",
+  "items": [
+    {
+      "query": "Klasse",
+      "answer": "Ein Bauplan für Objekte, der Eigenschaften (Attribute) und Verhalten (Methoden) definiert."
+    },
+    {
+      "query": "Objekt",
+      "answer": "Eine konkrete Instanz einer Klasse mit eigenen Werten für die definierten Attribute und Methoden."
+    },
+    {
+      "query": "Attribut",
+      "answer": "Eine Eigenschaft eines Objekts, die Daten speichert."
+    },
+    {
+      "query": "Methode",
+      "answer": "Eine Funktion innerhalb einer Klasse, die das Verhalten eines Objekts beschreibt."
+    },
+    {
+      "query": "Konstruktor",
+      "answer": "Eine spezielle Methode, die beim Erzeugen eines Objekts aufgerufen wird und es initialisiert."
+    },
+    {
+      "query": "Kapselung",
+      "answer": "Das Verbergen von internen Daten eines Objekts und der Zugriff darauf nur über definierte Methoden."
+    },
+    {
+      "query": "Vererbung",
+      "answer": "Ein Mechanismus, bei dem eine Klasse Eigenschaften und Methoden einer anderen Klasse übernimmt."
+    },
+    {
+      "query": "Polymorphismus",
+      "answer": "Die Fähigkeit, dass Methoden je nach Objekt unterschiedlich implementiert sein können."
+    },
+    {
+      "query": "Abstraktion",
+      "answer": "Das Reduzieren eines Objekts auf die wesentlichen Eigenschaften und das Ausblenden von Details."
+    },
+    {
+      "query": "Interface",
+      "answer": "Eine Sammlung von Methoden, die eine Klasse implementieren muss, ohne deren konkrete Umsetzung vorzugeben."
+    },
+    {
+      "query": "Abstrakte Klasse",
+      "answer": "Eine Klasse, die nicht direkt instanziiert werden kann und als Vorlage für andere Klassen dient."
+    },
+    {
+      "query": "Getter",
+      "answer": "Eine Methode, die den Wert eines Attributs zurückgibt."
+    },
+    {
+      "query": "Setter",
+      "answer": "Eine Methode, die den Wert eines Attributs setzt oder verändert."
+    },
+    {
+      "query": "Instanz",
+      "answer": "Ein anderes Wort für ein Objekt, das aus einer Klasse erzeugt wurde."
+    },
+    {
+      "query": "this",
+      "answer": "Ein Verweis auf das aktuelle Objekt innerhalb einer Klasse."
+    },
+    {
+      "query": "Superklasse",
+      "answer": "Die übergeordnete Klasse, von der andere Klassen erben."
+    },
+    {
+      "query": "Subklasse",
+      "answer": "Eine Klasse, die von einer anderen Klasse erbt."
+    },
+    {
+      "query": "Override",
+      "answer": "Das Überschreiben einer Methode aus einer Superklasse in einer Subklasse."
+    },
+    {
+      "query": "Overloading",
+      "answer": "Das Definieren mehrerer Methoden mit gleichem Namen, aber unterschiedlichen Parametern."
+    },
+    {
+      "query": "Assoziation",
+      "answer": "Eine Beziehung zwischen zwei Klassen, bei der Objekte miteinander verbunden sind."
+    }
+  ]
+}

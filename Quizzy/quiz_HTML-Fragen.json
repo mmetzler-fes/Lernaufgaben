@@ -1,0 +1,57 @@
+{
+  "quizname": "HTML Fragen",
+  "items": [
+    {
+      "query": "<title>HTML5-Grundgerüst</title>",
+      "answer": "Titelzeile im Browserfenster"
+    },
+    {
+      "query": "<body>",
+      "answer": "Umschließt den Inhalt, der im Browserfenster angezeigt wird"
+    },
+    {
+      "query": "<html lang=\"de\">",
+      "answer": "Umschließt den kompletten Inhalt und es wird im Inhalt als Sprache Deutsch verwendet"
+    },
+    {
+      "query": "<header> ... </header>",
+      "answer": "Kopfzeile der HTML-Seite"
+    },
+    {
+      "query": "<nav> ... </nav>",
+      "answer": "Bereich zur Steuerung (Navigation) der HTML-Seite"
+    },
+    {
+      "query": "<main>..</main>",
+      "answer": "Hauptteil der HTML-Seite"
+    },
+    {
+      "query": "<h1> … </h1>",
+      "answer": "Hauptüberschrift - wichtig, sollte einmal auf jeder einzelnen Seite kommen"
+    },
+    {
+      "query": "<p> … </p>",
+      "answer": "Absatz - nach dem Absatz wird automatisch Platz gehalten"
+    },
+    {
+      "query": "<strong> … </strong>",
+      "answer": "wichtiger Bereich, Schrift wird fett angezeigt"
+    },
+    {
+      "query": "<a href=\"URL\">BESCHREIBUNG</a>",
+      "answer": "Hyperlink für interne und externe Links"
+    },
+    {
+      "query": "<link rel=\"stylesheet\" href=\"main.css\" type=\"text/css\">",
+      "answer": "Referenz auf eine CSS-Datei"
+    },
+    {
+      "query": "<ul> … </ul>",
+      "answer": "Ungeordnete Auflistung"
+    },
+    {
+      "query": "<li>AUFZÄHLUNGSPUNKT</li>",
+      "answer": "Jeder einzelne Punkt bei einer Aufzählung muss von diesem HTML-Befehl umschlossen werden."
+    }
+  ]
+}

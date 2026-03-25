@@ -1,0 +1,1621 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-24T20:28:47.406Z",
+  "topic": {
+    "title": "SQL Test",
+    "description": "",
+    "modules": [
+      {
+        "id": "mod_mn503u8b_cpw4",
+        "title": "AFB I – SQL-Grundlagen 1",
+        "type": "trueFalse",
+        "description": "True/False Question",
+        "content": {
+          "imageUrl": "",
+          "questions": [
+            {
+              "question": "Aufgabe 1: Beurteilen Sie die Aussage.Die Abfrage SELECT * FROM artikel; liefert alle Spalten und alle Zeilen der Tabelle artikel.",
+              "correctAnswer": "true",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            },
+            {
+              "question": "Aufgabe 2: Beurteilen Sie die Aussage.In einem SQL-SELECT-Statement steht die Klausel ORDER BY vor der Klausel WHERE.",
+              "correctAnswer": "false",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            },
+            {
+              "question": "Aufgabe 3: Beurteilen Sie die Aussage.COUNT(*) zählt die Anzahl der Zeilen des Ergebnisses.",
+              "correctAnswer": "true",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            },
+            {
+              "question": "Aufgabe 4: Beurteilen Sie die Aussage.Der Ausdruck LIKE \"M%\" findet Einträge, die mit dem Buchstaben M beginnen.",
+              "correctAnswer": "true",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            },
+            {
+              "question": "Aufgabe 5: Beurteilen Sie die Aussage.Ein INNER JOIN liefert nur Datensätze, zu denen in beiden Tabellen passende Schlüsselwerte existieren.",
+              "correctAnswer": "true",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            }
+          ],
+          "enableRetry": false,
+          "enableSolutionsButton": false
+        },
+        "h5pSource": {
+          "library": "H5P.TrueFalse 1.8",
+          "machineName": "H5P.TrueFalse",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "correct": "true",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "autoCheck": false
+            },
+            "l10n": {
+              "trueText": "Wahr",
+              "falseText": "Falsch",
+              "score": "Sie haben @score von @total Punkten erreicht",
+              "checkAnswer": "Prüfen",
+              "submitAnswer": "Absenden",
+              "showSolutionButton": "Lösung anzeigen",
+              "tryAgain": "Erneut versuchen",
+              "wrongAnswerMessage": "Falsche Antwort",
+              "correctAnswerMessage": "Richtige Antwort",
+              "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+              "a11yCheck": "Antwort prüfen.",
+              "a11yShowSolution": "Lösung anzeigen.",
+              "a11yRetry": "Aufgabe erneut bearbeiten."
+            },
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "question": "<p><strong>Aufgabe 5:</strong> Beurteilen Sie die Aussage.</p><p>Ein <code>INNER JOIN</code> liefert nur Datensätze, zu denen in beiden Tabellen passende Schlüsselwerte existieren.</p>"
+          },
+          "metadata": {
+            "contentType": "True/False Question",
+            "license": "U",
+            "title": "AFB I – SQL-Grundlagen 5"
+          },
+          "subContentId": "c6ba3d78-2822-4ab4-b97b-1a4452eefd2c"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z"
+      },
+      {
+        "id": "mod_mn506h3f_xkme",
+        "title": "AFB I – SELECT mit WHERE",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Aufgabe 6: Wählen Sie die korrekte SQL-Abfrage aus.Gesucht sind die Namen aller Kundinnen und Kunden aus Berlin.",
+          "imageUrl": "",
+          "answers": [
+            {
+              "text": "SELECT name FROM kunden WHERE stadt = \"Berlin\";",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "SELECT * FROM kunden ORDER BY stadt = \"Berlin\";",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "SELECT kunden FROM name WHERE stadt = \"Berlin\";",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "SELECT name WHERE stadt = \"Berlin\" FROM kunden;",
+              "correct": false,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": true,
+          "randomAnswers": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "answers": [
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT name FROM kunden WHERE stadt = \"Berlin\";</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT * FROM kunden ORDER BY stadt = \"Berlin\";</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT kunden FROM name WHERE stadt = \"Berlin\";</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT name WHERE stadt = \"Berlin\" FROM kunden;</code></div>"
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "type": "single",
+              "singlePoint": false,
+              "randomAnswers": false,
+              "showSolutionsRequiresInput": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "autoCheck": false,
+              "passPercentage": 100,
+              "showScorePoints": false
+            },
+            "UI": {
+              "checkAnswerButton": "Prüfen",
+              "submitAnswerButton": "Absenden",
+              "showSolutionButton": "Lösung anzeigen",
+              "tryAgainButton": "Erneut versuchen",
+              "tipsLabel": "Tipp anzeigen",
+              "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+              "tipAvailable": "Tipp verfügbar",
+              "feedbackAvailable": "Feedback verfügbar",
+              "readFeedback": "Feedback lesen",
+              "wrongAnswer": "Falsche Antwort",
+              "correctAnswer": "Richtige Antwort",
+              "shouldCheck": "Hätte ausgewählt werden müssen",
+              "shouldNotCheck": "Hätte nicht ausgewählt werden dürfen",
+              "noInput": "Bitte beantworten Sie zuerst die Aufgabe",
+              "a11yCheck": "Antworten prüfen.",
+              "a11yShowSolution": "Lösung anzeigen.",
+              "a11yRetry": "Aufgabe erneut bearbeiten."
+            },
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "question": "<p><strong>Aufgabe 6:</strong> Wählen Sie die korrekte SQL-Abfrage aus.</p><p>Gesucht sind die Namen aller Kundinnen und Kunden aus Berlin.</p>"
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "AFB I – SELECT mit WHERE"
+          },
+          "subContentId": "48762f71-5267-45b1-89b1-8dc61a3ee187"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z"
+      },
+      {
+        "id": "mod_mn506h3f_h5d9",
+        "title": "AFB I – ORDER BY",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Aufgabe 7: Wählen Sie die korrekte SQL-Abfrage aus.Gesucht ist eine Liste aller Artikel, sortiert nach Preis in absteigender Reihenfolge.",
+          "imageUrl": "",
+          "answers": [
+            {
+              "text": "SELECT * FROM artikel ORDER BY preis DESC;",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "SELECT * FROM artikel ORDER preis BY DESC;",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "SELECT * FROM artikel WHERE preis DESC;",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "SELECT * FROM artikel GROUP BY preis DESC;",
+              "correct": false,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": true,
+          "randomAnswers": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "answers": [
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT * FROM artikel ORDER BY preis DESC;</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT * FROM artikel ORDER preis BY DESC;</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT * FROM artikel WHERE preis DESC;</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT * FROM artikel GROUP BY preis DESC;</code></div>"
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "type": "single",
+              "singlePoint": false,
+              "randomAnswers": false,
+              "showSolutionsRequiresInput": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "autoCheck": false,
+              "passPercentage": 100,
+              "showScorePoints": false
+            },
+            "UI": {
+              "checkAnswerButton": "Prüfen",
+              "submitAnswerButton": "Absenden",
+              "showSolutionButton": "Lösung anzeigen",
+              "tryAgainButton": "Erneut versuchen",
+              "tipsLabel": "Tipp anzeigen",
+              "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+              "tipAvailable": "Tipp verfügbar",
+              "feedbackAvailable": "Feedback verfügbar",
+              "readFeedback": "Feedback lesen",
+              "wrongAnswer": "Falsche Antwort",
+              "correctAnswer": "Richtige Antwort",
+              "shouldCheck": "Hätte ausgewählt werden müssen",
+              "shouldNotCheck": "Hätte nicht ausgewählt werden dürfen",
+              "noInput": "Bitte beantworten Sie zuerst die Aufgabe",
+              "a11yCheck": "Antworten prüfen.",
+              "a11yShowSolution": "Lösung anzeigen.",
+              "a11yRetry": "Aufgabe erneut bearbeiten."
+            },
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "question": "<p><strong>Aufgabe 7:</strong> Wählen Sie die korrekte SQL-Abfrage aus.</p><p>Gesucht ist eine Liste aller Artikel, sortiert nach Preis in absteigender Reihenfolge.</p>"
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "AFB I – ORDER BY"
+          },
+          "subContentId": "a94fa892-9ce3-457d-bbc3-3bf26ac15b91"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z"
+      },
+      {
+        "id": "mod_mn506h3f_0dt5",
+        "title": "AFB I – Aggregatfunktionen",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Aufgabe 8: Markieren Sie alle Aggregatfunktionen.",
+          "imageUrl": "",
+          "answers": [
+            {
+              "text": "COUNT()",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "AVG()",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "SUM()",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "ORDER BY",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "MIN()",
+              "correct": true,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": false,
+          "randomAnswers": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "answers": [
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>COUNT()</code></div>"
+              },
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>AVG()</code></div>"
+              },
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SUM()</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>ORDER BY</code></div>"
+              },
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>MIN()</code></div>"
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "type": "auto",
+              "singlePoint": false,
+              "randomAnswers": false,
+              "showSolutionsRequiresInput": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "autoCheck": false,
+              "passPercentage": 100,
+              "showScorePoints": false
+            },
+            "UI": {
+              "checkAnswerButton": "Prüfen",
+              "submitAnswerButton": "Absenden",
+              "showSolutionButton": "Lösung anzeigen",
+              "tryAgainButton": "Erneut versuchen",
+              "tipsLabel": "Tipp anzeigen",
+              "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+              "tipAvailable": "Tipp verfügbar",
+              "feedbackAvailable": "Feedback verfügbar",
+              "readFeedback": "Feedback lesen",
+              "wrongAnswer": "Falsche Antwort",
+              "correctAnswer": "Richtige Antwort",
+              "shouldCheck": "Hätte ausgewählt werden müssen",
+              "shouldNotCheck": "Hätte nicht ausgewählt werden dürfen",
+              "noInput": "Bitte beantworten Sie zuerst die Aufgabe",
+              "a11yCheck": "Antworten prüfen.",
+              "a11yShowSolution": "Lösung anzeigen.",
+              "a11yRetry": "Aufgabe erneut bearbeiten."
+            },
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "question": "<p><strong>Aufgabe 8:</strong> Markieren Sie alle Aggregatfunktionen.</p>"
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "AFB I – Aggregatfunktionen"
+          },
+          "subContentId": "2b87dad0-d9bf-462f-ac5e-522bebec4d9d"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z"
+      },
+      {
+        "id": "mod_mn506h3f_9s6c",
+        "title": "AFB II – Filterbedingungen",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Aufgabe 9: Markieren Sie alle Bedingungen, die alle Preise von 10 bis 20 Euro einschließlich auswählen.",
+          "imageUrl": "",
+          "answers": [
+            {
+              "text": "preis BETWEEN 10 AND 20",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "preis >= 10 AND preis <= 20",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "preis > 10 AND preis < 20",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "preis IN (10, 20)",
+              "correct": false,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": false,
+          "randomAnswers": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "answers": [
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>preis BETWEEN 10 AND 20</code></div>"
+              },
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>preis &gt;= 10 AND preis &lt;= 20</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>preis &gt; 10 AND preis &lt; 20</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>preis IN (10, 20)</code></div>"
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "type": "auto",
+              "singlePoint": false,
+              "randomAnswers": false,
+              "showSolutionsRequiresInput": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "autoCheck": false,
+              "passPercentage": 100,
+              "showScorePoints": false
+            },
+            "UI": {
+              "checkAnswerButton": "Prüfen",
+              "submitAnswerButton": "Absenden",
+              "showSolutionButton": "Lösung anzeigen",
+              "tryAgainButton": "Erneut versuchen",
+              "tipsLabel": "Tipp anzeigen",
+              "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+              "tipAvailable": "Tipp verfügbar",
+              "feedbackAvailable": "Feedback verfügbar",
+              "readFeedback": "Feedback lesen",
+              "wrongAnswer": "Falsche Antwort",
+              "correctAnswer": "Richtige Antwort",
+              "shouldCheck": "Hätte ausgewählt werden müssen",
+              "shouldNotCheck": "Hätte nicht ausgewählt werden dürfen",
+              "noInput": "Bitte beantworten Sie zuerst die Aufgabe",
+              "a11yCheck": "Antworten prüfen.",
+              "a11yShowSolution": "Lösung anzeigen.",
+              "a11yRetry": "Aufgabe erneut bearbeiten."
+            },
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "question": "<p><strong>Aufgabe 9:</strong> Markieren Sie alle Bedingungen, die alle Preise von 10 bis 20 Euro <em>einschließlich</em> auswählen.</p>"
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "AFB II – Filterbedingungen"
+          },
+          "subContentId": "6a2f3a22-1ae3-4bf8-af3a-afe5302b5899"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z"
+      },
+      {
+        "id": "mod_mn506h3f_84h9",
+        "title": "AFB II – JOIN erkennen",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Aufgabe 10: Wählen Sie die korrekte Abfrage aus.Gesucht sind Kundennamen und Bestelldaten aus den Tabellen kunden und bestellungen.",
+          "imageUrl": "",
+          "answers": [
+            {
+              "text": "SELECT k.name, b.bestelldatum FROM kunden k INNER JOIN bestellungen b ON k.kunden_id = b.kunden_id;",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "SELECT kunden.name, bestellungen.bestelldatum FROM kunden WHERE kunden.kunden_id = bestellungen.kunden_id;",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "SELECT name, bestelldatum FROM kunden JOIN bestellungen;",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "SELECT k.name, b.bestelldatum FROM kunden k GROUP BY bestellungen b;",
+              "correct": false,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": true,
+          "randomAnswers": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "answers": [
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT k.name, b.bestelldatum FROM kunden k INNER JOIN bestellungen b ON k.kunden_id = b.kunden_id;</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT kunden.name, bestellungen.bestelldatum FROM kunden WHERE kunden.kunden_id = bestellungen.kunden_id;</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT name, bestelldatum FROM kunden JOIN bestellungen;</code></div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>SELECT k.name, b.bestelldatum FROM kunden k GROUP BY bestellungen b;</code></div>"
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "type": "single",
+              "singlePoint": false,
+              "randomAnswers": false,
+              "showSolutionsRequiresInput": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "autoCheck": false,
+              "passPercentage": 100,
+              "showScorePoints": false
+            },
+            "UI": {
+              "checkAnswerButton": "Prüfen",
+              "submitAnswerButton": "Absenden",
+              "showSolutionButton": "Lösung anzeigen",
+              "tryAgainButton": "Erneut versuchen",
+              "tipsLabel": "Tipp anzeigen",
+              "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+              "tipAvailable": "Tipp verfügbar",
+              "feedbackAvailable": "Feedback verfügbar",
+              "readFeedback": "Feedback lesen",
+              "wrongAnswer": "Falsche Antwort",
+              "correctAnswer": "Richtige Antwort",
+              "shouldCheck": "Hätte ausgewählt werden müssen",
+              "shouldNotCheck": "Hätte nicht ausgewählt werden dürfen",
+              "noInput": "Bitte beantworten Sie zuerst die Aufgabe",
+              "a11yCheck": "Antworten prüfen.",
+              "a11yShowSolution": "Lösung anzeigen.",
+              "a11yRetry": "Aufgabe erneut bearbeiten."
+            },
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "question": "<p><strong>Aufgabe 10:</strong> Wählen Sie die korrekte Abfrage aus.</p><p>Gesucht sind Kundennamen und Bestelldaten aus den Tabellen <code>kunden</code> und <code>bestellungen</code>.</p>"
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "AFB II – JOIN erkennen"
+          },
+          "subContentId": "9829411c-afea-4cd5-9bfb-01c6350e9a22"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z"
+      },
+      {
+        "id": "mod_mn506h3f_6p8b",
+        "title": "AFB II – DISTINCT",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Aufgabe 11: Markieren Sie alle richtigen Aussagen zu DISTINCT.",
+          "imageUrl": "",
+          "answers": [
+            {
+              "text": "DISTINCT entfernt Dubletten aus dem Ergebnis bezogen auf die ausgewählten Spalten.",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "DISTINCT darf nur mit genau einer Spalte verwendet werden.",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "DISTINCT kann z. B. mit SELECT DISTINCT stadt FROM kunden verwendet werden.",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "DISTINCT sortiert das Ergebnis automatisch alphabetisch.",
+              "correct": false,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": false,
+          "randomAnswers": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "answers": [
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>DISTINCT entfernt Dubletten aus dem Ergebnis bezogen auf die ausgewählten Spalten.</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>DISTINCT darf nur mit genau einer Spalte verwendet werden.</div>"
+              },
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>DISTINCT kann z. B. mit <code>SELECT DISTINCT stadt FROM kunden</code> verwendet werden.</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>DISTINCT sortiert das Ergebnis automatisch alphabetisch.</div>"
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "type": "auto",
+              "singlePoint": false,
+              "randomAnswers": false,
+              "showSolutionsRequiresInput": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "autoCheck": false,
+              "passPercentage": 100,
+              "showScorePoints": false
+            },
+            "UI": {
+              "checkAnswerButton": "Prüfen",
+              "submitAnswerButton": "Absenden",
+              "showSolutionButton": "Lösung anzeigen",
+              "tryAgainButton": "Erneut versuchen",
+              "tipsLabel": "Tipp anzeigen",
+              "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+              "tipAvailable": "Tipp verfügbar",
+              "feedbackAvailable": "Feedback verfügbar",
+              "readFeedback": "Feedback lesen",
+              "wrongAnswer": "Falsche Antwort",
+              "correctAnswer": "Richtige Antwort",
+              "shouldCheck": "Hätte ausgewählt werden müssen",
+              "shouldNotCheck": "Hätte nicht ausgewählt werden dürfen",
+              "noInput": "Bitte beantworten Sie zuerst die Aufgabe",
+              "a11yCheck": "Antworten prüfen.",
+              "a11yShowSolution": "Lösung anzeigen.",
+              "a11yRetry": "Aufgabe erneut bearbeiten."
+            },
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "question": "<p><strong>Aufgabe 11:</strong> Markieren Sie alle richtigen Aussagen zu <code>DISTINCT</code>.</p>"
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "AFB II – DISTINCT"
+          },
+          "subContentId": "6cea171a-a3a4-42d5-a212-02b79ae4fd5c"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z"
+      },
+      {
+        "id": "mod_mn506h3f_aaoq",
+        "title": "AFB II – GROUP BY und HAVING",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Aufgabe 12: Markieren Sie alle richtigen Aussagen.",
+          "imageUrl": "",
+          "answers": [
+            {
+              "text": "GROUP BY fasst Zeilen mit gleichen Werten zu Gruppen zusammen.",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "HAVING filtert Gruppen, z. B. nach einem COUNT()-Ergebnis.",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "WHERE wird typischerweise vor der Gruppierung angewendet.",
+              "correct": true,
+              "tip": ""
+            },
+            {
+              "text": "ORDER BY ersetzt GROUP BY.",
+              "correct": false,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": false,
+          "randomAnswers": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "answers": [
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>GROUP BY</code> fasst Zeilen mit gleichen Werten zu Gruppen zusammen.</div>"
+              },
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>HAVING</code> filtert Gruppen, z. B. nach einem <code>COUNT()</code>-Ergebnis.</div>"
+              },
+              {
+                "correct": true,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>WHERE</code> wird typischerweise vor der Gruppierung angewendet.</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div><code>ORDER BY</code> ersetzt <code>GROUP BY</code>.</div>"
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "type": "auto",
+              "singlePoint": false,
+              "randomAnswers": false,
+              "showSolutionsRequiresInput": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "autoCheck": false,
+              "passPercentage": 100,
+              "showScorePoints": false
+            },
+            "UI": {
+              "checkAnswerButton": "Prüfen",
+              "submitAnswerButton": "Absenden",
+              "showSolutionButton": "Lösung anzeigen",
+              "tryAgainButton": "Erneut versuchen",
+              "tipsLabel": "Tipp anzeigen",
+              "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+              "tipAvailable": "Tipp verfügbar",
+              "feedbackAvailable": "Feedback verfügbar",
+              "readFeedback": "Feedback lesen",
+              "wrongAnswer": "Falsche Antwort",
+              "correctAnswer": "Richtige Antwort",
+              "shouldCheck": "Hätte ausgewählt werden müssen",
+              "shouldNotCheck": "Hätte nicht ausgewählt werden dürfen",
+              "noInput": "Bitte beantworten Sie zuerst die Aufgabe",
+              "a11yCheck": "Antworten prüfen.",
+              "a11yShowSolution": "Lösung anzeigen.",
+              "a11yRetry": "Aufgabe erneut bearbeiten."
+            },
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "question": "<p><strong>Aufgabe 12:</strong> Markieren Sie alle richtigen Aussagen.</p>"
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "AFB II – GROUP BY und HAVING"
+          },
+          "subContentId": "3c16e242-e2b2-4bbd-b66e-f2d4d66a9903"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z"
+      },
+      {
+        "id": "mod_mn506h3f_9mcb",
+        "title": "AFB I – Lückentext SELECT 1",
+        "type": "fillInTheBlanks",
+        "description": "Fill in the Blanks",
+        "content": {
+          "taskDescription": "Aufgabe 13: Ergänzen Sie die fehlenden Bestandteile der SQL-Abfrage, damit alle Namen der Kunden aus Hamburg angezeigt werden.",
+          "imageUrl": "",
+          "questions": [
+            {
+              "text": "SELECT name FROM *kunden/kunde* WHERE stadt *LIKE* 'Hamburg';"
+            }
+          ],
+          "caseSensitive": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "showSolutionsRequiresInput": false
+        },
+        "h5pSource": {
+          "library": "H5P.Blanks 1.14",
+          "machineName": "H5P.Blanks",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "text": "<p><strong>Aufgabe 13:</strong> Ergänzen Sie die fehlenden Bestandteile der SQL-Abfrage.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "showSolutions": "Lösung anzeigen",
+            "tryAgain": "Erneut versuchen",
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "notFilledOut": "Bitte alle Lücken ausfüllen.",
+            "answerIsCorrect": "„:ans“ ist richtig",
+            "answerIsWrong": "„:ans“ ist falsch",
+            "answeredCorrectly": "Richtig beantwortet",
+            "answeredIncorrectly": "Falsch beantwortet",
+            "solutionLabel": "Richtige Lösung:",
+            "inputLabel": "Lücke @num von @total",
+            "inputHasTipLabel": "Tipp verfügbar",
+            "tipLabel": "Tipp",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "autoCheck": false,
+              "caseSensitive": false,
+              "showSolutionsRequiresInput": false,
+              "separateLines": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "acceptSpellingErrors": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "a11yCheckingModeHeader": "Prüfmodus",
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "questions": [
+              "<p><code>SELECT * FROM *kunden* WHERE stadt = *Hamburg*;</code></p>"
+            ]
+          },
+          "metadata": {
+            "contentType": "Fill in the Blanks",
+            "license": "U",
+            "title": "AFB I – Lückentext SELECT 1"
+          },
+          "subContentId": "ec0a8331-4846-4f45-8ba5-01403fbd8b7c"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z",
+        "updatedAt": "2026-03-24T20:11:47.461Z"
+      },
+      {
+        "id": "mod_mn506h3f_vcl0",
+        "title": "AFB I – Lückentext SELECT 2",
+        "type": "fillInTheBlanks",
+        "description": "Fill in the Blanks",
+        "content": {
+          "taskDescription": "Aufgabe 14: Die Namen aller Kunden sind aufsteigend zu sortieren.",
+          "imageUrl": "",
+          "questions": [
+            {
+              "text": "SELECT name FROM kunden *ORDER BY* name ASC;"
+            }
+          ],
+          "caseSensitive": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "showSolutionsRequiresInput": false
+        },
+        "h5pSource": {
+          "library": "H5P.Blanks 1.14",
+          "machineName": "H5P.Blanks",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "text": "<p><strong>Aufgabe 14:</strong> Ergänzen Sie die fehlenden Begriffe.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "showSolutions": "Lösung anzeigen",
+            "tryAgain": "Erneut versuchen",
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "notFilledOut": "Bitte alle Lücken ausfüllen.",
+            "answerIsCorrect": "„:ans“ ist richtig",
+            "answerIsWrong": "„:ans“ ist falsch",
+            "answeredCorrectly": "Richtig beantwortet",
+            "answeredIncorrectly": "Falsch beantwortet",
+            "solutionLabel": "Richtige Lösung:",
+            "inputLabel": "Lücke @num von @total",
+            "inputHasTipLabel": "Tipp verfügbar",
+            "tipLabel": "Tipp",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "autoCheck": false,
+              "caseSensitive": false,
+              "showSolutionsRequiresInput": false,
+              "separateLines": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "acceptSpellingErrors": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "a11yCheckingModeHeader": "Prüfmodus",
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "questions": [
+              "<p><code>SELECT name FROM kunden ORDER BY name *ASC/aufsteigend*;</code></p>"
+            ]
+          },
+          "metadata": {
+            "contentType": "Fill in the Blanks",
+            "license": "U",
+            "title": "AFB I – Lückentext SELECT 2"
+          },
+          "subContentId": "21ae501e-2d55-4db4-a908-bb0fc9d020d9"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z",
+        "updatedAt": "2026-03-24T20:14:45.464Z"
+      },
+      {
+        "id": "mod_mn506h3f_7jd6",
+        "title": "AFB II – Lückentext AVG und GROUP BY",
+        "type": "fillInTheBlanks",
+        "description": "Fill in the Blanks",
+        "content": {
+          "taskDescription": "Aufgabe 16: Ergänzen Sie die fehlenden Bestandteile der Gruppierungsabfrage. Es soll der die kategorie_id und der mittlere Preis nach der kategorie_id gruppiert ausgegeben werden.",
+          "imageUrl": "",
+          "questions": [
+            {
+              "text": "SELECT kategorie_id, *AVG(preis)* FROM artikel GROUP BY *kategorie_id*;"
+            }
+          ],
+          "caseSensitive": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "showSolutionsRequiresInput": false
+        },
+        "h5pSource": {
+          "library": "H5P.Blanks 1.14",
+          "machineName": "H5P.Blanks",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "text": "<p><strong>Aufgabe 16:</strong> Ergänzen Sie die fehlenden Bestandteile der Gruppierungsabfrage.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "showSolutions": "Lösung anzeigen",
+            "tryAgain": "Erneut versuchen",
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "notFilledOut": "Bitte alle Lücken ausfüllen.",
+            "answerIsCorrect": "„:ans“ ist richtig",
+            "answerIsWrong": "„:ans“ ist falsch",
+            "answeredCorrectly": "Richtig beantwortet",
+            "answeredIncorrectly": "Falsch beantwortet",
+            "solutionLabel": "Richtige Lösung:",
+            "inputLabel": "Lücke @num von @total",
+            "inputHasTipLabel": "Tipp verfügbar",
+            "tipLabel": "Tipp",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "autoCheck": false,
+              "caseSensitive": false,
+              "showSolutionsRequiresInput": false,
+              "separateLines": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "acceptSpellingErrors": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "a11yCheckingModeHeader": "Prüfmodus",
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "questions": [
+              "<p><code>SELECT kategorie_id, *AVG(preis)* FROM artikel GROUP BY *kategorie_id*;</code></p>"
+            ]
+          },
+          "metadata": {
+            "contentType": "Fill in the Blanks",
+            "license": "U",
+            "title": "AFB II – Lückentext AVG und GROUP BY"
+          },
+          "subContentId": "109b0b81-03a8-4967-8796-855758a2c9cb"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z",
+        "updatedAt": "2026-03-24T20:21:06.987Z"
+      },
+      {
+        "id": "mod_mn506h3f_0p3h",
+        "title": "AFB II – Lückentext LIKE",
+        "type": "fillInTheBlanks",
+        "description": "Fill in the Blanks",
+        "content": {
+          "taskDescription": "Aufgabe 18: Ergänzen Sie die Platzhalter für eine LIKE-Abfrage, damit alle Namen mit dem Anfangsbuchstaben M angezeigt werden.",
+          "imageUrl": "",
+          "questions": [
+            {
+              "text": "SELECT name FROM kunden WHERE name LIKE *M%*;"
+            }
+          ],
+          "caseSensitive": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "showSolutionsRequiresInput": false
+        },
+        "h5pSource": {
+          "library": "H5P.Blanks 1.14",
+          "machineName": "H5P.Blanks",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "text": "<p><strong>Aufgabe 18:</strong> Ergänzen Sie die Platzhalter für eine LIKE-Abfrage.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "showSolutions": "Lösung anzeigen",
+            "tryAgain": "Erneut versuchen",
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "notFilledOut": "Bitte alle Lücken ausfüllen.",
+            "answerIsCorrect": "„:ans“ ist richtig",
+            "answerIsWrong": "„:ans“ ist falsch",
+            "answeredCorrectly": "Richtig beantwortet",
+            "answeredIncorrectly": "Falsch beantwortet",
+            "solutionLabel": "Richtige Lösung:",
+            "inputLabel": "Lücke @num von @total",
+            "inputHasTipLabel": "Tipp verfügbar",
+            "tipLabel": "Tipp",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "autoCheck": false,
+              "caseSensitive": false,
+              "showSolutionsRequiresInput": false,
+              "separateLines": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "acceptSpellingErrors": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "a11yCheckingModeHeader": "Prüfmodus",
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "questions": [
+              "<p><code>SELECT name FROM kunden WHERE name LIKE *M%*;</code></p>"
+            ]
+          },
+          "metadata": {
+            "contentType": "Fill in the Blanks",
+            "license": "U",
+            "title": "AFB II – Lückentext LIKE"
+          },
+          "subContentId": "d5c7d970-888b-4688-b197-caae61fa8f44"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z",
+        "updatedAt": "2026-03-24T19:49:22.375Z"
+      },
+      {
+        "id": "mod_mn506h3f_8238",
+        "title": "AFB II – Reihenfolge der SELECT-Klauseln",
+        "type": "dragTheWords",
+        "description": "Drag the Words",
+        "content": {
+          "taskDescription": "Aufgabe 19: Ziehen Sie die SQL-Klauseln in die richtige Reihenfolge.",
+          "imageUrl": "",
+          "textField": "Eine typische Abfrage kann folgendermaßen aufgebaut werden:<br><code>*SELECT* bezeichnung, preis *FROM* artikel *WHERE* preis>100 *GROUP BY* bezeichnung, preis *HAVING* COUNT(bezeichnung) >= 1 *ORDER BY* preis DESC</code>",
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "instantFeedback": false
+        },
+        "h5pSource": {
+          "library": "H5P.DragText 1.10",
+          "machineName": "H5P.DragText",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "taskDescription": "<p><strong>Aufgabe 19:</strong> Ziehen Sie die SQL-Klauseln in die richtige Reihenfolge.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "tryAgain": "Erneut versuchen",
+            "showSolution": "Lösung anzeigen",
+            "dropZoneIndex": "Ablagezone @index.",
+            "empty": "Ablagezone @index ist leer.",
+            "contains": "Ablagezone @index enthält Element @draggable.",
+            "ariaDraggableIndex": "@index von @count Elementen.",
+            "tipLabel": "Tipp anzeigen",
+            "correctText": "Richtig!",
+            "incorrectText": "Falsch!",
+            "resetDropTitle": "Zurücksetzen",
+            "resetDropDescription": "Möchten Sie diese Ablagezone wirklich leeren?",
+            "grabbed": "Element aufgenommen.",
+            "cancelledDragging": "Ziehen abgebrochen.",
+            "correctAnswer": "Richtige Antwort:",
+            "feedbackHeader": "Feedback",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "instantFeedback": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "textField": "Eine typische Abfrage kann folgendermaßen aufgebaut werden:<br><code>*SELECT* bezeichnung, preis *FROM* artikel *WHERE* preis &gt; 100 *GROUP BY* bezeichnung, preis *HAVING* COUNT(*) &gt;= 1 *ORDER BY* preis DESC</code>",
+            "distractors": "*JOIN*  *DELETE*  *INSERT*"
+          },
+          "metadata": {
+            "contentType": "Drag the Words",
+            "license": "U",
+            "title": "AFB II – Reihenfolge der SELECT-Klauseln"
+          },
+          "subContentId": "fcd3d7a0-059a-4513-acbf-0fd5e0656395"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z",
+        "updatedAt": "2026-03-24T20:23:40.533Z"
+      },
+      {
+        "id": "mod_mn506h3f_0fud",
+        "title": "AFB II – JOIN-Abfrage zusammensetzen",
+        "type": "dragTheWords",
+        "description": "Drag the Words",
+        "content": {
+          "taskDescription": "Aufgabe 20: Ergänzen Sie die fehlenden SQL-Schlüsselwörter.",
+          "imageUrl": "",
+          "textField": "Vervollständigen Sie die Abfrage SELECT k.name, b.bestelldatum FROM kunden k *INNER JOIN* bestellungen b *ON* k.kunden_id = b.kunden_id *WHERE* b.status = 'offen' *ORDER BY* b.bestelldatum DESC;",
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "instantFeedback": false
+        },
+        "h5pSource": {
+          "library": "H5P.DragText 1.10",
+          "machineName": "H5P.DragText",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "taskDescription": "<p><strong>Aufgabe 20:</strong> Ergänzen Sie die fehlenden SQL-Schlüsselwörter.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "tryAgain": "Erneut versuchen",
+            "showSolution": "Lösung anzeigen",
+            "dropZoneIndex": "Ablagezone @index.",
+            "empty": "Ablagezone @index ist leer.",
+            "contains": "Ablagezone @index enthält Element @draggable.",
+            "ariaDraggableIndex": "@index von @count Elementen.",
+            "tipLabel": "Tipp anzeigen",
+            "correctText": "Richtig!",
+            "incorrectText": "Falsch!",
+            "resetDropTitle": "Zurücksetzen",
+            "resetDropDescription": "Möchten Sie diese Ablagezone wirklich leeren?",
+            "grabbed": "Element aufgenommen.",
+            "cancelledDragging": "Ziehen abgebrochen.",
+            "correctAnswer": "Richtige Antwort:",
+            "feedbackHeader": "Feedback",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "instantFeedback": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "textField": "Vervollständigen Sie die Abfrage:<br><code>SELECT k.name, b.bestelldatum FROM kunden k *INNER JOIN* bestellungen b *ON* k.kunden_id = b.kunden_id *WHERE* b.status = 'offen' *ORDER BY* b.bestelldatum DESC</code>",
+            "distractors": "*LEFT JOIN*  *GROUP BY*  *HAVING*  *VALUES*"
+          },
+          "metadata": {
+            "contentType": "Drag the Words",
+            "license": "U",
+            "title": "AFB II – JOIN-Abfrage zusammensetzen"
+          },
+          "subContentId": "df942c55-dc74-4d16-a833-1da0431552f4"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T18:59:48.200Z",
+        "updatedAt": "2026-03-24T20:24:17.709Z"
+      }
+    ]
+  }
+}

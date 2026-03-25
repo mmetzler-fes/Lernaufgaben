@@ -1,0 +1,85 @@
+{
+  "quizname": "IoT und MQTT Grundlagen",
+  "items": [
+    {
+      "query": "IoT (Internet of Things)",
+      "answer": "Bezeichnet die Vernetzung von physischen Geräten, Sensoren und Aktoren über das Internet, sodass diese Daten austauschen und automatisch reagieren können."
+    },
+    {
+      "query": "Sensor",
+      "answer": "Ein Gerät, das physikalische Größen wie Temperatur, Licht oder Bewegung misst und in digitale Daten umwandelt."
+    },
+    {
+      "query": "Aktor",
+      "answer": "Ein Gerät, das auf Basis von empfangenen Daten eine Aktion ausführt, zum Beispiel ein Motor, Relais oder eine LED."
+    },
+    {
+      "query": "Embedded System",
+      "answer": "Ein spezialisiertes Computersystem, das in ein Gerät integriert ist und eine bestimmte Aufgabe erfüllt."
+    },
+    {
+      "query": "Smart Home",
+      "answer": "Ein System zur Automatisierung und Vernetzung von Geräten in einem Haushalt, z.B. Beleuchtung, Heizung oder Sicherheitssysteme."
+    },
+    {
+      "query": "MQTT",
+      "answer": "Message Queuing Telemetry Transport. Ein leichtgewichtiges Nachrichtenprotokoll für IoT-Geräte, das auf dem Publish-Subscribe-Prinzip basiert."
+    },
+    {
+      "query": "MQTT Broker",
+      "answer": "Ein Server, der Nachrichten von Publishern empfängt und an alle passenden Subscriber weiterleitet."
+    },
+    {
+      "query": "Publisher",
+      "answer": "Ein Gerät oder Programm, das Nachrichten an einen MQTT-Broker sendet."
+    },
+    {
+      "query": "Subscriber",
+      "answer": "Ein Gerät oder Programm, das Nachrichten von einem MQTT-Broker empfängt, indem es bestimmte Topics abonniert."
+    },
+    {
+      "query": "Topic",
+      "answer": "Ein hierarchischer Kanal oder Themenbereich in MQTT, über den Nachrichten veröffentlicht und empfangen werden."
+    },
+    {
+      "query": "Payload",
+      "answer": "Der eigentliche Inhalt einer Nachricht, der über MQTT übertragen wird."
+    },
+    {
+      "query": "QoS (Quality of Service)",
+      "answer": "Bestimmt bei MQTT, wie zuverlässig eine Nachricht übertragen wird. Es gibt drei Stufen: 0, 1 und 2."
+    },
+    {
+      "query": "QoS 0",
+      "answer": "Nachricht wird höchstens einmal gesendet, ohne Bestätigung. Schnell, aber nicht garantiert."
+    },
+    {
+      "query": "QoS 1",
+      "answer": "Nachricht wird mindestens einmal zugestellt. Der Empfänger bestätigt den Empfang."
+    },
+    {
+      "query": "QoS 2",
+      "answer": "Nachricht wird genau einmal zugestellt. Höchste Zuverlässigkeit, aber mehr Kommunikationsaufwand."
+    },
+    {
+      "query": "Retained Message",
+      "answer": "Eine vom Broker gespeicherte MQTT-Nachricht, die neuen Subscribern sofort beim Abonnieren eines Topics gesendet wird."
+    },
+    {
+      "query": "Last Will Message",
+      "answer": "Eine Nachricht, die der Broker automatisch sendet, wenn ein Client unerwartet die Verbindung verliert."
+    },
+    {
+      "query": "Edge Device",
+      "answer": "Ein Gerät am Rand eines Netzwerks, das Daten sammelt, verarbeitet oder weiterleitet, z.B. ein Sensor oder Mikrocontroller."
+    },
+    {
+      "query": "Edge Computing",
+      "answer": "Datenverarbeitung direkt nahe der Datenquelle, um Latenz zu reduzieren und Netzwerkverkehr zu sparen."
+    },
+    {
+      "query": "Telemetrie",
+      "answer": "Automatische Übertragung von Messdaten eines Geräts an ein anderes System zur Überwachung oder Analyse."
+    }
+  ]
+}

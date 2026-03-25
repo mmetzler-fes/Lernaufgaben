@@ -1,0 +1,53 @@
+{
+  "quizname": "DB Grundbegriffe",
+  "items": [
+    {
+      "query": "Beziehung",
+      "answer": "ist eine Verbindung zwischen zwei oder mehr Entitäten. Beispielsweise könnte es eine Beziehung zwischen den Entitäten Person und Unternehmen geben, wenn eine Person dort beschäftigt ist."
+    },
+    {
+      "query": "Normalisierung",
+      "answer": "der Prozess wird bei der Konzeption von Datenbanken verwendet, um Redundanzen und Inkonsistenzen in der Datenstruktur zu vermeiden."
+    },
+    {
+      "query": "Tupel (Datensatz)",
+      "answer": "repräsentiert alle Merkmalswerte einer Entität einer Entitätsmenge."
+    },
+    {
+      "query": "Foreign Key",
+      "answer": "ist ein Attribut oder eine Kombination von Attributen, das/die in einer Entity gespeichert wird und auf den Primary Key einer anderen Entity verweist."
+    },
+    {
+      "query": "Relationale Datenbank",
+      "answer": "ist eine Art von Datenbank, bei der die Daten in Form von Tabellen (sogenannten Relationen) gespeichert werden und miteinander verknüpft werden können."
+    },
+    {
+      "query": "DBMS",
+      "answer": "Datenbank Management System"
+    },
+    {
+      "query": "Attribut",
+      "answer": "ist ein Merkmal oder eine Eigenschaft einer Entity. Zum Beispiel könnten dies der Name und das Geschlecht einer Entity Person sein."
+    },
+    {
+      "query": "NoSQL-Datenbank",
+      "answer": "sind eine Klasse von Datenbanken, die nicht das Relationenmodell verwenden, sondern alternative Ansätze zur Speicherung und Verarbeitung von Daten anbieten."
+    },
+    {
+      "query": "Relation",
+      "answer": "besteht aus einer Entitätsbezeichnung, deren Attributen und Tupeln."
+    },
+    {
+      "query": "Entity (Entität)",
+      "answer": "ist eine abstrakte Repräsentation eines realen Objekts oder Konzepts, z.B. eine Person oder ein Unternehmen oder ein Produkt."
+    },
+    {
+      "query": "Denormalisierung",
+      "answer": "bezieht sich auf den Prozess, bei dem mehrere Tabellen zu einer zusammengeführt werden, um die Performance von Abfragen zu verbessern."
+    },
+    {
+      "query": "Primary Key",
+      "answer": "ist ein Attribut oder eine Kombination von Attributen, das jeder Entität in einer Datenbank eindeutig zugeordnet ist. Er dient dazu, die Entität eindeutig zu identifizieren."
+    }
+  ]
+}
