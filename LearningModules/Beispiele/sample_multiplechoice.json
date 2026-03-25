@@ -1,0 +1,254 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-25T21:58:05.559Z",
+  "topic": {
+    "title": "AP 1 Sommer 2025 IT-Berufe - Demo",
+    "description": "Importiert aus H5P (H5P.QuestionSet)",
+    "modules": [
+      {
+        "id": "mod_mn3j0reo_kufi",
+        "title": "Mündliche Leistung",
+        "type": "multipleChoice",
+        "description": "Multiple Choice",
+        "content": {
+          "question": "Bitte beurteilen Sie selbstkritisch Ihre mündliche Leistung und wählen Sie Ihre Einschätzung auf dem Notenstrahl aus.",
+          "answers": [
+            {
+              "text": "1",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "1,5",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "2",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "2,5",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "3",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "3,5",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "4",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "4,5",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "5",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "5.5",
+              "correct": false,
+              "tip": ""
+            },
+            {
+              "text": "6",
+              "correct": false,
+              "tip": ""
+            }
+          ],
+          "singleAnswer": true,
+          "randomAnswers": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "passPercentage": 100
+        },
+        "h5pSource": {
+          "library": "H5P.MultiChoice 1.16",
+          "machineName": "H5P.MultiChoice",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "answers": [
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>1</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>1,5</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>2</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>2,5</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>3</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>3,5</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>4</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>4,5</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>5</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>5.5</div>"
+              },
+              {
+                "correct": false,
+                "tipsAndFeedback": {
+                  "tip": "",
+                  "chosenFeedback": "",
+                  "notChosenFeedback": ""
+                },
+                "text": "<div>6</div>"
+              }
+            ],
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "type": "single",
+              "singlePoint": false,
+              "randomAnswers": false,
+              "showSolutionsRequiresInput": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "autoCheck": false,
+              "passPercentage": 100,
+              "showScorePoints": false
+            },
+            "UI": {
+              "checkAnswerButton": "Check",
+              "submitAnswerButton": "Submit",
+              "showSolutionButton": "Show solution",
+              "tryAgainButton": "Retry",
+              "tipsLabel": "Show tip",
+              "scoreBarLabel": "You got :num out of :total points",
+              "tipAvailable": "Tip available",
+              "feedbackAvailable": "Feedback available",
+              "readFeedback": "Read feedback",
+              "wrongAnswer": "Wrong answer",
+              "correctAnswer": "Correct answer",
+              "shouldCheck": "Should have been checked",
+              "shouldNotCheck": "Should not have been checked",
+              "noInput": "Please answer before viewing the solution",
+              "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+              "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+              "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+            },
+            "confirmCheck": {
+              "header": "Finish ?",
+              "body": "Are you sure you wish to finish ?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Finish"
+            },
+            "confirmRetry": {
+              "header": "Retry ?",
+              "body": "Are you sure you wish to retry ?",
+              "cancelLabel": "Cancel",
+              "confirmLabel": "Confirm"
+            },
+            "question": "<p>Bitte beurteilen Sie <strong>selbstkritisch </strong>Ihre mündliche Leistung und wählen Sie Ihre Einschätzung auf dem Notenstrahl aus.</p>"
+          },
+          "metadata": {
+            "contentType": "Multiple Choice",
+            "license": "U",
+            "title": "Mündliche Leistung",
+            "authors": [],
+            "changes": [],
+            "extraTitle": "Mündliche Leistung"
+          },
+          "subContentId": "d1b3e137-8c99-4333-b946-3fce7c7e6bcf"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-23T18:35:50.592Z"
+      }
+    ]
+  }
+}

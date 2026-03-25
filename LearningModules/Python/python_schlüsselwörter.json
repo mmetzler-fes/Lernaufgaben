@@ -1,0 +1,23 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-25T21:51:38.895Z",
+  "topic": {
+    "title": "Programmierung in python",
+    "description": "",
+    "modules": [
+      {
+        "id": "mod_mn22lcqp_wavtgi",
+        "title": "Python Schlüsselwörter",
+        "type": "markTheWords",
+        "description": "Markiere alle python Schlüsselwörter in folgendem Programm.",
+        "content": {
+          "taskDescription": "Markiere alle python Schlüsselwörter in folgendem Programm.",
+          "textField": "*from* random *import* randint\n\n*def* zufallsliste_erstellen(eine_zahl):\n    liste = []\n    *for* i *in* range(eine_zahl):\n        liste.append(randint(0,100))\n    *return* liste\n\n*def* berechne_mittelwert(eine_liste):\n    result = 0\n    *for* i *in* range(len(eine_liste)):\n        result = result + eine_liste[i]\n\n    result = result / len(eine_liste)\n\n    print(\"Das Ergebnis lautet \" + str(result) + \".\")\n\n# Hauptprogramm\neingabe = int(input(\"Gib eine positive ganze Zahl an: \"))\nzufallsliste = zufallsliste_erstellen(eingabe)\nberechne_mittelwert(zufallsliste)"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-22T18:08:11.714Z",
+        "updatedAt": "2026-03-22T18:12:22.006Z"
+      }
+    ]
+  }
+}

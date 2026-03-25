@@ -1,0 +1,31 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-25T21:49:15.502Z",
+  "topic": {
+    "title": "Programmierung in python",
+    "description": "",
+    "modules": [
+      {
+        "id": "mod_mn23fsyy_v6razm",
+        "title": "Schlüsselwörter Beschreibungen",
+        "type": "accordion",
+        "description": "Schlüsselwörter Beschreibungen",
+        "content": {
+          "panels": [
+            {
+              "title": "return",
+              "content": "Gibt einen Wert oder mehrere Werte von einer Funktion zurück.\nBei mehreren Werten werden diese durch Komma getrennt übergeben und als Tupel zurückgegeben."
+            },
+            {
+              "title": "in",
+              "content": "Gibt für jeden Wert einer Liste diesen Wert zurück.\nWird häufig in Schleifen verwendet um alle Werte zu durchlaufen.\nBeispiel:\nliste=[\"red\",\"blue\",\"green\"]\nfor farbe in liste:\n    print(farbe)\n"
+            }
+          ]
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-22T18:31:52.426Z",
+        "updatedAt": "2026-03-22T18:35:03.344Z"
+      }
+    ]
+  }
+}

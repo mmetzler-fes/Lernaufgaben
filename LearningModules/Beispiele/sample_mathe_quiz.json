@@ -1,0 +1,25 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-25T21:46:33.970Z",
+  "topic": {
+    "title": "Mathematik Grundlagen",
+    "description": "",
+    "modules": [
+      {
+        "id": "mod_mn1y2stl_tu7bri",
+        "title": "Mathe Quiz - Multiplikation bis 20",
+        "type": "arithmeticQuiz",
+        "description": "",
+        "content": {
+          "arithmeticType": "multiplication",
+          "maxNumber": 20,
+          "numQuestions": 10,
+          "timeLimit": 0
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-22T16:01:47.625Z",
+        "updatedAt": "2026-03-22T16:04:02.386Z"
+      }
+    ]
+  }
+}

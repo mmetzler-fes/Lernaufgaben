@@ -1,0 +1,61 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-25T21:39:27.092Z",
+  "topic": {
+    "title": "Bussysteme",
+    "description": "",
+    "modules": [
+      {
+        "id": "mod_mn6f9rvb_gpdkun",
+        "title": "Bussysteme Grundlagen",
+        "type": "dragTheWords",
+        "description": "<h2><br></h2>",
+        "content": {
+          "taskDescription": "",
+          "imageUrl": "",
+          "textField": "<p><b>1.1 Master/Slave-Verfahren</b><font size=\"2\"><b><br></b></font></p><p style=\"margin-bottom: 12px;\">Der *Master* frägt nacheinander (zyklisch) die *Slaves* ab. Der adressierte Slave antwortet auf die Masteranfrage. Nach erfolgreichem Datenaustausch wird der nächste Slave abgefragt. Ohne Erweiterung kann das Bussystem mit Master/Slave-Verfahren nur einen Master haben.&nbsp;</p><p style=\"margin-bottom: 12px;\">Beispiel: *Asi-Bus* (Industrieautomation, Fördertechnik z.B. Lebensmittelindustrie)</p><p></p><p></p><p><b>1.2 Token-Bus</b><font size=\"2\"><b><br></b></font></p><p style=\"margin-bottom: 0px;\">Der *Token* ist die Zugriffsberechtigung und wird zwischen den *Mastern* weitergereicht.&nbsp;Wie in einer Diskussion darf nur einer Meldung geben, wenn er an der Reihe ist.&nbsp;Dieses Bussystem wird für *Ringtopologien* mit gleichberechtigten Partnern eingesetzt.<br><p>Beispiel: Telekommunikationsknoten der Telekom</p></p><p></p><p><b>1.3 Token-Passing</b><font size=\"2\"><b><br></b></font></p><p style=\"margin-bottom: 0px;\">Eine Kombination von Token-Bus und Master / Slaves – Zugriffsverfahren.&nbsp;Dieses ist für Multi- Master – Systeme geeignet. Zwischen den Mastern wird ein Token als Zugriffsberechtigung weitergereicht.&nbsp;Jeder *Master* mit dem *Token* frägt seine Slaves ab.&nbsp;<br><p>Beispiel: *Profibus-DP* (Fertigungsindustrie) und *Profibus-PA* (Ex-Schutz)</p></p><p></p><p><b>1.4 CSMA/CD</b><font size=\"2\"><b><br></b></font></p><p style=\"margin-bottom: 0px;\">Abkürzung für&nbsp;Carrier Sense *Multiple* Access / *Collision* Detection.&nbsp;Alle Teilnehmer hören den Bus ab. Ist er frei wird gesendet. Während des Sendens wird weiter abgehört.&nbsp;Bei *Kollision* wird der Sendevorgang abgebrochen und nach einer *zufälligen* Wartezeit neu&nbsp;gestartet.<br><p>Beispiele: *Ethernet*, Industrial Ethernet (mit Realtime-Erweiterung)</p></p><p></p><p><b>1.5 CSMA/CA</b><font size=\"2\"><b><br></b></font></p><p style=\"margin-bottom: 0px;\">Die Abkürung bedeutet:&nbsp;(Carrier Sense Multiple Access / *Collision* Avoidance).&nbsp;Die Busteilnehmer haben unterschiedliche *Priorität*.&nbsp;Bei gleichzeitigem Senden von mehreren Busteilnehmern erhält automatisch der *höher* priorisierte Vorrang,&nbsp;so dass Kollisionen vermieden werden.&nbsp;<br><p>Beispiel: *CAN-Bus*&nbsp;(Automobilindustrie)</p></p><p></p>",
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "instantFeedback": false
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-25T19:14:11.159Z",
+        "updatedAt": "2026-03-25T21:37:23.756Z"
+      },
+      {
+        "id": "mod_mn1qt1lt_hj8wwl",
+        "title": "Bussysteme Grundlagen (schwierig)",
+        "type": "fillInTheBlanks",
+        "description": "Bussysteme",
+        "content": {
+          "taskDescription": "Ergänze den Lückentext",
+          "imageUrl": "",
+          "questions": [
+            {
+              "text": "<h3><b>Master/Slave-Verfahren: </b></h3>Der *Master* fragt nacheinander (zyklisch) die *Slaves* ab. Nur der adressierte Slave darf antworten. Ohne Erweiterung gibt es in diesem Verfahren immer nur einen *Master*. Beispiel: *ASi*-Bus (häufig in der Industrieautomation / Fördertechnik)"
+            },
+            {
+              "text": "<h3><b>Token-Bus:</b>&nbsp;</h3><div>Die Zugriffsberechtigung wird in Form eines *Tokens* zwischen den gleichberechtigten Teilnehmern weitergereicht. Es dürfen nur Teilnehmer senden, die gerade den Token besitzen. Typische Topologie: *Ring/Ring-Topologie/Ringtopologie*. Beispiel: Telekommunikationsknoten der Telekom.</div>"
+            },
+            {
+              "text": "<h3><b>Token-Passing:&nbsp;</b></h3><div>Kombination aus Token-Verfahren und Master/Slave-Prinzip. Es gibt mehrere *Master*, die sich den Token untereinander weiterreichen. Der Master, der den Token hat, darf seine *Slaves* abfragen. Beispiele: *Profibus-DP* (Fertigungsindustrie) und *Profibus-PA* (Ex-Schutzbereich)</div>"
+            },
+            {
+              "text": "<h3><b>CSMA/CD:</b></h3><p>Abkürzung für&nbsp;<span style=\"font-size: 0.95rem; color: var(--text-primary);\">Carrier Sense *Multiple* Access / *Collision* Detection. Alle Teilnehmer hören den Bus ab. Ist er frei wird gesendet. Während des Sendens wird weiter abgehört. Bei *Kollision* wird der Sendevorgang abgebrochen und nach einer *zufälligen* Wartezeit neu gestartet. Beispiele: klassisches *Ethernet*, Industrial Ethernet (mit Realtime-Erweiterung)</span></p>"
+            },
+            {
+              "text": "<h3><b>CSMA/CA:&nbsp;</b></h3>Abkürzung für: Carrier Sense Multiple Access / *Collision* Avoidance Das Verfahren vermeidet Kollisionen durch unterschiedliche *Prioritäten*. Bei gleichzeitigem Sendeversuch gewinnt automatisch der Teilnehmer mit der *höheren* Priorität. Wichtigstes Beispiel: *CAN*-Bus (vor allem Automobilindustrie)"
+            }
+          ],
+          "caseSensitive": false,
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "showSolutionsRequiresInput": true
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-22T12:38:15.137Z",
+        "updatedAt": "2026-03-25T20:58:05.445Z"
+      }
+    ]
+  }
+}
