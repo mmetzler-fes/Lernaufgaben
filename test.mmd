@@ -1,0 +1,23 @@
+graph TD
+start_node_id([Start])
+node0(("while condition"))
+start_node_id --> node0
+node1{"Bedingung"}
+node0 --> node1
+node3["Do something"]
+node1 -->|Ja| node3
+node4{"Bedingung"}
+node1 -->|Nein| node4
+node6["Do something"]
+node4 -->|Ja| node6
+node7["Do something"]
+node4 -->|Nein| node7
+node8[" "]
+node6 --> node8
+node7 --> node8
+node9[" "]
+node3 --> node9
+node8 --> node9
+node9 --> node0
+end_node_id([End])
+node0 --> end_node_id
