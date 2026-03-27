@@ -1,0 +1,99 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-27T14:12:56.900Z",
+  "topic": {
+    "title": "Python Test",
+    "description": "",
+    "modules": [
+      {
+        "id": "mod_mn54jeab_bg1o",
+        "title": "Python OOP – Lückentext P.",
+        "type": "fillInTheBlanks",
+        "description": "Fill in the Blanks",
+        "content": {
+          "taskDescription": "Ergänzen Sie den Satz.",
+          "imageUrl": "",
+          "questions": [
+            {
+              "text": "Bei *Polymorphie* können unterschiedliche Objekte auf denselben Methodenaufruf unterschiedlich reagieren."
+            }
+          ],
+          "caseSensitive": false,
+          "enableRetry": false,
+          "enableSolutionsButton": false,
+          "showSolutionsRequiresInput": false
+        },
+        "h5pSource": {
+          "library": "H5P.Blanks 1.14",
+          "machineName": "H5P.Blanks",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "text": "<p><strong>Aufgabe 23:</strong> Ergänzen Sie den Satz.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "showSolutions": "Lösung anzeigen",
+            "tryAgain": "Erneut versuchen",
+            "checkAnswer": "Prüfen",
+            "submitAnswer": "Absenden",
+            "notFilledOut": "Bitte alle Lücken ausfüllen.",
+            "answerIsCorrect": "„:ans“ ist richtig",
+            "answerIsWrong": "„:ans“ ist falsch",
+            "answeredCorrectly": "Richtig beantwortet",
+            "answeredIncorrectly": "Falsch beantwortet",
+            "solutionLabel": "Richtige Lösung:",
+            "inputLabel": "Lücke @num von @total",
+            "inputHasTipLabel": "Tipp verfügbar",
+            "tipLabel": "Tipp",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "autoCheck": false,
+              "caseSensitive": false,
+              "showSolutionsRequiresInput": false,
+              "separateLines": false,
+              "confirmCheckDialog": false,
+              "confirmRetryDialog": false,
+              "acceptSpellingErrors": false
+            },
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "a11yCheckingModeHeader": "Prüfmodus",
+            "confirmCheck": {
+              "header": "Abschließen?",
+              "body": "Möchten Sie diese Aufgabe wirklich prüfen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Prüfen"
+            },
+            "confirmRetry": {
+              "header": "Neu starten?",
+              "body": "Möchten Sie die Aufgabe wirklich zurücksetzen?",
+              "cancelLabel": "Abbrechen",
+              "confirmLabel": "Zurücksetzen"
+            },
+            "questions": [
+              "<p>Bei *Polymorphie* können unterschiedliche Objekte auf denselben Methodenaufruf unterschiedlich reagieren.</p>"
+            ]
+          },
+          "metadata": {
+            "contentType": "Fill in the Blanks",
+            "license": "U",
+            "title": "Python OOP – Lückentext Polymorphie 5"
+          },
+          "subContentId": "70f8d126-cd8e-4562-9ae8-e1bad4ce3655"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z",
+        "updatedAt": "2026-03-25T17:09:55.615Z"
+      }
+    ]
+  }
+}
