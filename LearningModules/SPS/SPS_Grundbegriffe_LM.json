@@ -1,0 +1,61 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-27T10:00:00.000Z",
+  "topic": {
+    "title": "SPS Grundbegriffe",
+    "description": "Importiert aus Quiz JSON",
+    "modules": [
+      {
+        "id": "mod_sps_dragwords_001",
+        "title": "SPS Grundbegriffe – Drag the Words",
+        "type": "dragTheWords",
+        "description": "Drag the Words",
+        "content": {
+          "taskDescription": "Setze die passenden Begriffe in den Text ein.",
+          "imageUrl": "",
+          "textField": "*SPS (Speicherprogrammierbare Steuerung)* ist ein industrieller Computer, der zur Steuerung und Automatisierung von Maschinen eingesetzt wird. Ein *Eingang (Input)* ist ein Signal von Sensoren, während ein *Ausgang (Output)* ein Signal an Aktoren darstellt. Der *Programmzyklus* beschreibt den Ablauf von Einlesen, Verarbeiten und Ausgeben. Der *Kontaktplan (KOP)* ist eine grafische Programmiersprache, ebenso wie der *Funktionsplan (FUP)*. *SCL (Structured Control Language)* ist hingegen textbasiert. Ein *Merker* dient als interner Speicher. *Timer* ermöglichen zeitabhängige Abläufe und *Zähler* zählen Ereignisse. Eine *FC (Function)* hat keinen eigenen Speicher, während ein *FB (Funktionsbaustein)* Zustände speichern kann. Der Unterschied zwischen *FC und FB* liegt genau in dieser Speicherfähigkeit. Ein *Instanz-Datenbaustein (Instanz-DB)* speichert Daten eines FB. *OB1 (Main)* ist der zentrale Programmbaustein. Die *Adressierung* beschreibt die Zuordnung von Speicherstellen. Die *Zykluszeit* ist die Dauer eines Durchlaufs. Ein *Sensor* erfasst physikalische Größen und ein *Aktor* setzt Signale in Aktionen um.",
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "instantFeedback": false
+        },
+        "h5pSource": {
+          "library": "H5P.DragText 1.10",
+          "machineName": "H5P.DragText",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "taskDescription": "<p>Setze die passenden Begriffe in den Text ein.</p>",
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "checkAnswer": "Check",
+            "submitAnswer": "Submit",
+            "tryAgain": "Retry",
+            "showSolution": "Show solution",
+            "behaviour": {
+              "enableRetry": true,
+              "enableSolutionsButton": true,
+              "enableCheckButton": true,
+              "instantFeedback": false
+            },
+            "scoreBarLabel": "You got :num out of :total points",
+            "textField": "*SPS (Speicherprogrammierbare Steuerung)* ist ein industrieller Computer, der zur Steuerung und Automatisierung von Maschinen eingesetzt wird. Ein *Eingang (Input)* ist ein Signal von Sensoren, während ein *Ausgang (Output)* ein Signal an Aktoren darstellt. Der *Programmzyklus* beschreibt den Ablauf von Einlesen, Verarbeiten und Ausgeben. Der *Kontaktplan (KOP)* ist eine grafische Programmiersprache, ebenso wie der *Funktionsplan (FUP)*. *SCL (Structured Control Language)* ist hingegen textbasiert. Ein *Merker* dient als interner Speicher. *Timer* ermöglichen zeitabhängige Abläufe und *Zähler* zählen Ereignisse. Eine *FC (Function)* hat keinen eigenen Speicher, während ein *FB (Funktionsbaustein)* Zustände speichern kann. Der Unterschied zwischen *FC und FB* liegt genau in dieser Speicherfähigkeit. Ein *Instanz-Datenbaustein (Instanz-DB)* speichert Daten eines FB. *OB1 (Main)* ist der zentrale Programmbaustein. Die *Adressierung* beschreibt die Zuordnung von Speicherstellen. Die *Zykluszeit* ist die Dauer eines Durchlaufs. Ein *Sensor* erfasst physikalische Größen und ein *Aktor* setzt Signale in Aktionen um.",
+            "distractors": "*CPU* *Programm* *Spannung* *Signalfluss* *Logikbaustein* *Automatisierung*"
+          },
+          "metadata": {
+            "contentType": "Drag the Words",
+            "license": "U",
+            "title": "SPS Grundbegriffe – Drag the Words"
+          },
+          "subContentId": "sps-dragwords-001"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-27T10:00:00.000Z"
+      }
+    ]
+  }
+}
