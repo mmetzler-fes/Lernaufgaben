@@ -1,0 +1,63 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-27T14:00:11.007Z",
+  "topic": {
+    "title": "Python Test",
+    "description": "",
+    "modules": [
+      {
+        "id": "mod_mn54hbmt_choh",
+        "title": "Abfrage OOP Python (True/False)",
+        "type": "trueFalse",
+        "description": "Entscheide, welche Aussagen korrekt sind.",
+        "content": {
+          "imageUrl": "",
+          "questions": [
+            {
+              "question": "Klassen werden mit dem Schlüsselwort class definiert.",
+              "correctAnswer": "true",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            },
+            {
+              "question": "self verweist auf die aktuelle Instanz und ermöglicht Zugriff auf deren Attribute und Methoden.",
+              "correctAnswer": "true",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            },
+            {
+              "question": "Python unterstützt Mehrfachvererbung, d. h. eine Klasse kann von mehreren Klassen erben.",
+              "correctAnswer": "true",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            },
+            {
+              "question": "Nur Instanzmethoden brauchen self. Bei @staticmethod oder @classmethod ist das anders.",
+              "correctAnswer": "false",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            },
+            {
+              "question": "Es gibt Klassenattribute (für alle Instanzen gleich) und Instanzattribute (für einzelne Objekte).",
+              "correctAnswer": "true",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            },
+            {
+              "question": "__init__ ist der Initialisierer (Konstruktor) einer Klasse.",
+              "correctAnswer": "true",
+              "feedbackCorrect": "Richtig!",
+              "feedbackWrong": "Leider falsch."
+            }
+          ],
+          "randomOrder": true,
+          "enableRetry": false,
+          "enableSolutionsButton": true
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T10:22:14.299Z",
+        "updatedAt": "2026-03-25T17:05:19.289Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-27T14:01:08.940Z",
+  "topic": {
+    "title": "Python Test",
+    "description": "",
+    "modules": [
+      {
+        "id": "mod_mn54jeab_a7kg",
+        "title": "Python OOP – OOP-Begriffe markieren 1",
+        "type": "markTheWords",
+        "description": "Mark the Words",
+        "content": {
+          "taskDescription": "Markieren Sie alle Begriffe, die typische OOP-Konzepte bezeichnen.",
+          "imageUrl": "",
+          "textField": "*Klasse*\nSchleife\n*Vererbung*\nOperator\n*Polymorphie*\nKonstante\n*Kapselung*",
+          "enableRetry": false,
+          "enableSolutionsButton": false
+        },
+        "h5pSource": {
+          "library": "H5P.MarkTheWords 1.11",
+          "machineName": "H5P.MarkTheWords",
+          "params": {
+            "media": {
+              "disableImageZooming": false
+            },
+            "overallFeedback": [
+              {
+                "from": 0,
+                "to": 100
+              }
+            ],
+            "checkAnswerButton": "Prüfen",
+            "submitAnswerButton": "Absenden",
+            "tryAgainButton": "Erneut versuchen",
+            "showSolutionButton": "Lösung anzeigen",
+            "behaviour": {
+              "enableRetry": false,
+              "enableSolutionsButton": false,
+              "enableCheckButton": true,
+              "showScorePoints": true
+            },
+            "correctAnswer": "Richtig!",
+            "incorrectAnswer": "Falsch!",
+            "missedAnswer": "Nicht markiert!",
+            "displaySolutionDescription": "Die Aufgabe wurde mit der Lösung aktualisiert.",
+            "scoreBarLabel": "Sie haben :num von :total Punkten erreicht",
+            "a11yFullTextLabel": "Volltext",
+            "a11yClickableTextLabel": "Klickbarer Volltext",
+            "a11ySolutionModeHeader": "Lösungsmodus",
+            "a11yCheckingHeader": "Prüfmodus",
+            "a11yCheck": "Antworten prüfen.",
+            "a11yShowSolution": "Lösung anzeigen.",
+            "a11yRetry": "Aufgabe erneut bearbeiten.",
+            "taskDescription": "<p><strong>Aufgabe 27:</strong> Markieren Sie alle Begriffe, die typische OOP-Konzepte bezeichnen.</p>",
+            "textField": "<p>*Klasse*</p><p>Schleife</p><p>*Vererbung*</p><p>Operator</p><p>*Polymorphie*</p><p>Konstante</p><p>*Kapselung*</p>"
+          },
+          "metadata": {
+            "contentType": "Mark the Words",
+            "license": "U",
+            "title": "Python OOP – OOP-Begriffe markieren 1"
+          },
+          "subContentId": "49a32f14-4a9f-41db-a25b-4fe303b14536"
+        },
+        "moduleSelected": true,
+        "createdAt": "2026-03-24T14:56:34.573Z",
+        "updatedAt": "2026-03-24T21:03:27.056Z"
+      }
+    ]
+  }
+}
