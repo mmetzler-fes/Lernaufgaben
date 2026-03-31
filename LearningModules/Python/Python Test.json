@@ -1,12 +1,13 @@
 {
-  "exportVersion": "2.0",
-  "exportDate": "2026-03-27T16:21:07.942Z",
   "topic": {
+    "id": "topic_mnewwxfs_qdyx",
     "title": "Python Test",
     "description": "",
+    "selected": true,
+    "createdAt": "2026-03-31T17:50:14.344Z",
     "modules": [
       {
-        "id": "mod_mn54hbmt_choh",
+        "id": "mod_mnewwxfs_s3g6",
         "title": "Abfrage OOP Python (True/False)",
         "type": "trueFalse",
         "description": "Entscheide, welche Aussagen korrekt sind.",
@@ -68,10 +69,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T10:22:14.299Z",
-        "updatedAt": "2026-03-27T15:07:26.784Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54jeab_a7kg",
+        "id": "mod_mnewwxfs_m2rl",
         "title": "Python OOP – OOP-Begriffe markieren 1",
         "type": "markTheWords",
         "description": "<br>",
@@ -129,10 +130,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T14:56:34.573Z",
-        "updatedAt": "2026-03-27T15:29:56.883Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn7toqzb_we9s",
+        "id": "mod_mnewwxfs_p8ug",
         "title": "Variblenkonvention python programmierung",
         "type": "dragAndDrop",
         "description": "",
@@ -142,7 +143,7 @@
           "dropZones": [
             {
               "label": "Zone 1",
-              "correctDraggable": "",
+              "correctDraggable": "auto",
               "x": 56,
               "y": 0,
               "width": 12,
@@ -150,7 +151,7 @@
             },
             {
               "label": "Zone 2",
-              "correctDraggable": "",
+              "correctDraggable": "Auto",
               "x": 70,
               "y": 0,
               "width": 13,
@@ -172,10 +173,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-26T13:29:37.977Z",
-        "updatedAt": "2026-03-27T15:26:03.564Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54jeab_n6ev",
+        "id": "mod_mnewwxfs_pdbe",
         "title": "Python OOP – Methodengerüst",
         "type": "dragTheWords",
         "description": "Drag the Words",
@@ -240,10 +241,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T14:56:34.573Z",
-        "updatedAt": "2026-03-24T21:01:24.632Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54jeab_vrb5",
+        "id": "mod_mnewwxfs_3tl4",
         "title": "Python OOP – Vererbungs-Syntax",
         "type": "dragTheWords",
         "description": "Drag the Words",
@@ -308,10 +309,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T14:56:34.573Z",
-        "updatedAt": "2026-03-24T20:55:03.538Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54jeab_xbh3",
+        "id": "mod_mnewwxfs_7x3d",
         "title": "Python OOP – Lückentext Konstruktor 2",
         "type": "fillInTheBlanks",
         "description": "Fill in the Blanks",
@@ -397,10 +398,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T14:56:34.573Z",
-        "updatedAt": "2026-03-25T17:08:49.047Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54jeab_no37",
+        "id": "mod_mnewwxfs_x0iu",
         "title": "Python OOP – Lückentext Klasse und Objekt 1",
         "type": "fillInTheBlanks",
         "description": "Fill in the Blanks",
@@ -486,10 +487,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T14:56:34.573Z",
-        "updatedAt": "2026-03-25T17:13:16.590Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54jeab_bg1o",
+        "id": "mod_mnewwxfs_pirl",
         "title": "Python OOP – Lückentext P.",
         "type": "fillInTheBlanks",
         "description": "Fill in the Blanks",
@@ -575,10 +576,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T14:56:34.573Z",
-        "updatedAt": "2026-03-25T17:09:55.615Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54jeab_lzkg",
+        "id": "mod_mnewwxfs_xvhq",
         "title": "Python OOP – Konstruktor erkennen",
         "type": "multipleChoice",
         "description": "Multiple Choice",
@@ -703,10 +704,11 @@
           "subContentId": "245221b5-05d6-492e-a9e2-3068d6ac865b"
         },
         "moduleSelected": true,
-        "createdAt": "2026-03-24T14:56:34.573Z"
+        "createdAt": "2026-03-24T14:56:34.573Z",
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54jeab_jaed",
+        "id": "mod_mnewwxfs_51po",
         "title": "Python OOP – Vererbung und super()",
         "type": "multipleChoice",
         "description": "Multiple Choice",
@@ -832,10 +834,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T14:56:34.573Z",
-        "updatedAt": "2026-03-25T17:23:56.288Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54jeab_8grc",
+        "id": "mod_mnewwxfs_77xp",
         "title": "Python OOP – Klassifizieren",
         "type": "multipleChoice",
         "description": "Multiple Choice",
@@ -961,10 +963,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T14:56:34.573Z",
-        "updatedAt": "2026-03-25T17:23:39.026Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54jeab_11td",
+        "id": "mod_mnewwxfs_984g",
         "title": "Python OOP – Kapselung",
         "type": "multipleChoice",
         "description": "Multiple Choice",
@@ -1090,10 +1092,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T14:56:34.573Z",
-        "updatedAt": "2026-03-25T17:24:08.986Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54hbmt_5yut",
+        "id": "mod_mnewwxfs_3gmw",
         "title": "Struktogramm auswerten",
         "type": "multipleChoice",
         "description": "",
@@ -1135,10 +1137,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T12:08:38.842Z",
-        "updatedAt": "2026-03-24T12:08:38.842Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn6kwlmx_aa8v",
+        "id": "mod_mnewwxfs_fbd1",
         "title": "Python Schlüsselwörter",
         "type": "markTheWords",
         "description": "Markiere alle python Schlüsselwörter in folgendem Programm.",
@@ -1151,10 +1153,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-22T18:08:11.714Z",
-        "updatedAt": "2026-03-27T14:57:23.536Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn54hbmt_d21l",
+        "id": "mod_mnewwxfs_4mbq",
         "title": "Python Code Analyse",
         "type": "multipleChoice",
         "description": "<p></p><p><br></p>",
@@ -1196,10 +1198,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T10:33:49.711Z",
-        "updatedAt": "2026-03-25T18:24:55.540Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn7toqzb_mcl2",
+        "id": "mod_mnewwxfs_gatn",
         "title": "Python OOP – Codeausgabe beurteilen",
         "type": "multipleChoice",
         "description": "Multiple Choice",
@@ -1325,10 +1327,10 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-24T14:56:34.573Z",
-        "updatedAt": "2026-03-27T15:24:43.752Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       },
       {
-        "id": "mod_mn93w045_jnjy5z",
+        "id": "mod_mnewwxfs_zcuh",
         "title": "Python Klassenvariablen",
         "type": "multipleChoice",
         "description": "",
@@ -1375,8 +1377,12 @@
         },
         "moduleSelected": true,
         "createdAt": "2026-03-27T16:18:51.413Z",
-        "updatedAt": "2026-03-27T16:20:05.552Z"
+        "updatedAt": "2026-03-31T17:50:14.344Z"
       }
-    ]
+    ],
+    "ownerId": "usr_mnevl22s_39eafa59",
+    "permissions": {
+      "visibleTo": "all"
+    }
   }
 }
